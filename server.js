@@ -9,7 +9,7 @@ const unirest = require('unirest');
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 const xpath = require("simple-xpath-position");
-const annotationFunctions = require("/conf/site-analyser.conf.js");
+const annotationFunctions = require("/conf/typing-engine.conf.js");
 
 const app = express();
 app.use(logger('dev'));
