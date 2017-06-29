@@ -7,4 +7,5 @@ functions.push((document, createAnnotation) => createAnnotation(document, "h4.pa
 functions.push((document, createAnnotation) => createAnnotation(document, "h6.hrf-title", "Question"));
 functions.push((document, createAnnotation) => createAnnotation(document, "div.hrf-content", "Answer"));
 functions.push((document, createAnnotation) => createAnnotation(document, "div.panel-group + p", "BottomText"));
+functions.push((document, createAnnotation) => createAnnotation(document, "a.external-link", "Additional Information"));
 exports.getFunctions = () => functions;
