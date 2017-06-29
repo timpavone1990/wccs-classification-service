@@ -67,6 +67,10 @@ function createAnnotation(document, cssSelector, contentType) {
                     }
                 };
 
+                if (node.nodeName === "A") {
+                    annotation.referenceType = contentType;
+                }
+
                 promises.push(writeAnnotation(annotation));
             });
 
