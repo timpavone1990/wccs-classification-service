@@ -5,6 +5,7 @@
   "private": true,
   "main": "server.js",
   "scripts": {
+    "dev": "NODE_ENV=development node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tim Gremplewski",
@@ -17,5 +18,11 @@
     "morgan": "~1.8.1",
     "simple-xpath-position": "^2.0.2",
     "unirest": "^0.5.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "sinon": "^3.2.1",
+    "winston": "^2.3.1"
   }
 }
