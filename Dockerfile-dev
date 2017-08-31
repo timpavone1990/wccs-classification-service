@@ -1,0 +1,8 @@
+FROM node:latest
+LABEL maintainer="Tim Gremplewski <tim.gremplewski@gmail.com>"
+
+EXPOSE 44284 9229
+VOLUME /usr/src/app
+
+WORKDIR /usr/src/app
+CMD [ "npm", "run-script", "dev" ]

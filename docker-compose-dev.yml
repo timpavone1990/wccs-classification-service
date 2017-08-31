@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  typing-engine:
+      build:
+        context: .
+        dockerfile: Dockerfile-dev
+      image: wcts/typing-engine:dev
+      ports:
+        - "44284:44284"
+        - "9229:9229"
+      volumes:
+        - ./:/usr/src/app:ro
+        - ./resources/typing-engine.conf.js:/conf/typing-engine.conf.js:ro

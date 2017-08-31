@@ -7,7 +7,7 @@ const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 const xpath = require("simple-xpath-position");
 
-const configurationProvider = new (require("../lib/ConfigurationProvider"))();
+const configurationProvider = new (require("../lib/ConfigurationProvider"))("/conf/typing-engine.conf.js");
 const httpRequestExecutor = new (require("../lib/HttpRequestExecutor"))(unirest);
 const typingEngine = new (require("../lib/TypingEngine"))(httpRequestExecutor, configurationProvider);
 

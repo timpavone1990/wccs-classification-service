@@ -19,3 +19,18 @@ publishing {
         }
     }
 }
+
+task buildDev(type:Exec) {
+    executable "docker-compose"
+    args = ["--file", "./docker-compose-dev.yml", "--project-name", "wcts", "build"]
+}
+
+task upDev(type:Exec) {
+    executable "docker-compose"
+    args = ["--file", "./docker-compose-dev.yml", "--project-name", "wcts", "up"]
+}
+
+task stopDown(type:Exec) {
+    executable "docker-compose"
+    args = ["--file", "./docker-compose-dev.yml", "--project-name", "wcts", "down"]
+}
