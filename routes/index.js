@@ -3,8 +3,7 @@
 const express = require('express');
 const router = express.Router();
 const unirest = require('unirest');
-const jsdom = require("jsdom");
-const { JSDOM } = jsdom;
+
 const xpath = require("simple-xpath-position");
 
 const configurationProvider = new (require("../lib/ConfigurationProvider"))("/conf/typing-engine.conf.js");

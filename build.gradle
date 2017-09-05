@@ -7,7 +7,16 @@ apply plugin: "maven-publish"
 distributions {
     main {
         contents {
-            from "Dockerfile", "package.json", "server.js", "typing-engine.conf.js"
+            into ("lib") {
+                from "lib"
+            }
+            into ("routes") {
+                from "routes"
+            }
+            into ("resources") {
+                from "resources"
+            }
+            from "Dockerfile", "package.json", "server.js"
         }
     }
 }
