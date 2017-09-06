@@ -43,3 +43,10 @@ task downDev(type:Exec) {
     executable "docker-compose"
     args = ["--file", "./docker-compose-dev.yml", "--project-name", "wcts", "down"]
 }
+
+task npmTest(type:Exec) {
+    executable "npm"
+    args = ["test"]
+}
+
+check.dependsOn npmTest

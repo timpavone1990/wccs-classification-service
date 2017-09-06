@@ -5,16 +5,16 @@ module.exports = {
             "name": "Service",
             "selector": { "type": "UrlPatternSelector", "value": "\\\/service\\\/?$" },
             "properties": {
-                "heading": { "name": "heading", "type": "Text", "selector": { "type": "CssSelector", "value": "#content h3" } }
+                "heading": { "name": "heading", "type": "PageHeading", "selector": {} }
             },
             "references": {
             }
         }
     },
     "contentTypes": {
-        "Text": {
-            "name": "Text",
-            "selector": {},
+        "PageHeading": {
+            "name": "PageHeading",
+            "selector": { "type": "CssSelector", "value": "#content h3" },
             "properties": {
             },
             "references": {

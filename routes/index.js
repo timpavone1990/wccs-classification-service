@@ -4,8 +4,6 @@ const express = require('express');
 const router = express.Router();
 const unirest = require('unirest');
 
-const xpath = require("simple-xpath-position");
-
 const configurationProvider = new (require("../lib/ConfigurationProvider"))("/conf/typing-engine.conf.js");
 const httpRequestExecutor = new (require("../lib/HttpRequestExecutor"))(unirest);
 const typingEngine = new (require("../lib/TypingEngine"))(httpRequestExecutor, configurationProvider);
@@ -33,7 +31,7 @@ function createAnnotation(document, cssSelector, contentType) {
         document
             .querySelectorAll(cssSelector)
             .forEach((node) => {
-                const nodeXpath = xpath.fromNode(node, document.body);
+
 
                 // TODO: If we trim the textContent, not the whole text in the node is selected
                 const nodeTextContent = node.textContent;
