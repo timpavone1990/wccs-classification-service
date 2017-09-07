@@ -36,7 +36,12 @@ task buildDev(type:Exec) {
 
 task upDev(type:Exec) {
     executable "docker-compose"
-    args = ["--file", "./docker-compose-dev.yml", "--project-name", "wcts", "up"]
+    args = ["--file", "./docker-compose-dev.yml", "--project-name", "wcts", "up", "-d"]
+}
+
+task restartDev(type:Exec) {
+    executable "docker-compose"
+    args = ["--file", "./docker-compose-dev.yml", "--project-name", "wcts", "restart"]
 }
 
 task downDev(type:Exec) {

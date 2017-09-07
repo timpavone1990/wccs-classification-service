@@ -14,8 +14,8 @@
     "body-parser": "~1.17.1",
     "cookie-parser": "~1.4.3",
     "express": "~4.15.2",
-    "jsdom": "^10.1.0",
     "morgan": "~1.8.1",
+    "puppeteer": "^0.10.2",
     "simple-xpath-position": "^2.0.2",
     "unirest": "^0.5.1"
   },

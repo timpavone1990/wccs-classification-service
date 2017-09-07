@@ -6,7 +6,12 @@ const unirest = require('unirest');
 
 const configurationProvider = new (require("../lib/ConfigurationProvider"))("/conf/typing-engine.conf.js");
 const httpRequestExecutor = new (require("../lib/HttpRequestExecutor"))(unirest);
-const typingEngine = new (require("../lib/TypingEngine"))(httpRequestExecutor, configurationProvider);
+
+const puppeteer = require("puppeteer");
+const typingEnginePromise = (async () => {
+    const browser = await puppeteer.launch({ "args": ["--no-sandbox"], "userDataDir": "/tmp" });
+    return new (require("../lib/TypingEngine"))(httpRequestExecutor, configurationProvider, browser);
+})();
 
 function writeAnnotation(annotation) {
     return new Promise((resolve, reject) => {
@@ -77,6 +82,7 @@ function createAnnotation(document, cssSelector, contentType) {
 
 router.post('/', async (request, response, next) => {
     try {
+        const typingEngine = await typingEnginePromise;
         const page = await typingEngine.processJob(request.body);
         response.json(page);
     } catch (e) {

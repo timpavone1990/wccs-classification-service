@@ -11,4 +11,5 @@ services:
         - "9229:9229"
       volumes:
         - ./:/usr/src/app:ro
+        - /tmp/wcts:/tmp
         - ./resources/typing-engine.conf.js:/conf/typing-engine.conf.js:ro
