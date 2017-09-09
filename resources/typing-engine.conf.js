@@ -6,14 +6,24 @@ module.exports = {
             "selector": { "type": "UrlPatternSelector", "value": "\\\/service\\\/?$" },
             "properties": {
                 "heading": { "name": "heading", "type": "PageHeading", "selector": {} },
-                "subHeading": { "name": "subHeading", "type": "SectionHeading", "selector": {} },
-                "introduction": { "name": "introduction", "type": "Text", "selector": { "type": "CssSelector", "value": "#content > div.container > div.row > div > div > p" } }
+                "subHeading": { "name": "subHeading", "type": "SectionHeading", "selector": { "type": "CssSelector", "value": "#content > div.container > div.row > div > h4" } },
+                "introduction": { "name": "introduction", "type": "Text", "selector": { "type": "CssSelector", "value": "#content > div.container > div.row > div > div > p" } },
+                "faqSections": { "name": "faqSections", "type": "FAQSection", "selector": {} }
             },
             "references": {
             }
         }
     },
     "contentTypes": {
+        "FAQSection": {
+            "name": "FAQSection",
+            "selector": { "type": "CssSelector", "value": "#content div.panel-group" },
+            "properties": {
+                "title": { "name": "title", "type": "SectionHeading", "selector": {} }
+            },
+            "references": {
+            }
+        },
         "PageHeading": {
             "name": "PageHeading",
             "selector": { "type": "CssSelector", "value": "#content h3" },
@@ -46,7 +56,6 @@ module.exports = {
 /*
 "use strict";
 const functions = [];
-functions.push((document, createAnnotation) => createAnnotation(document, "#content h4 + div", "Introduction"));
 functions.push((document, createAnnotation) => createAnnotation(document, "h4.panel-title", "FaqSectionTitle"));
 functions.push((document, createAnnotation) => createAnnotation(document, "h6.hrf-title", "Question"));
 functions.push((document, createAnnotation) => createAnnotation(document, "div.hrf-content", "Answer"));
