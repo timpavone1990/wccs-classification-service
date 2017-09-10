@@ -19,7 +19,34 @@ module.exports = {
             "name": "FAQSection",
             "selector": { "type": "CssSelector", "value": "#content div.panel-group" },
             "properties": {
-                "title": { "name": "title", "type": "SectionHeading", "selector": {} }
+                "title": { "name": "title", "type": "SectionHeading", "selector": {} },
+                "entries": { "name": "entries", "type": "FAQEntry", "selector": {} }
+            },
+            "references": {
+            }
+        },
+        "FAQEntry": {
+            "name": "FAQEntry",
+            "selector": { "type": "CssSelector", "value": "#content article.hrf-entry" },
+            "properties": {
+                "question": { "name": "question", "type": "FAQQuestion", "selector": {} },
+                "answer": { "name": "answer", "type": "FAQAnswer", "selector": {} }
+            },
+            "references": {
+            }
+        },
+        "FAQQuestion": {
+            "name": "FAQQuestion",
+            "selector": { "type": "CssSelector", "value": "#content h6.hrf-title" },
+            "properties": {
+            },
+            "references": {
+            }
+        },
+        "FAQAnswer": {
+            "name": "FAQAnswer",
+            "selector": { "type": "CssSelector", "value": "#content div.hrf-content" },
+            "properties": {
             },
             "references": {
             }
@@ -56,7 +83,6 @@ module.exports = {
 /*
 "use strict";
 const functions = [];
-functions.push((document, createAnnotation) => createAnnotation(document, "h4.panel-title", "FaqSectionTitle"));
 functions.push((document, createAnnotation) => createAnnotation(document, "h6.hrf-title", "Question"));
 functions.push((document, createAnnotation) => createAnnotation(document, "div.hrf-content", "Answer"));
 functions.push((document, createAnnotation) => createAnnotation(document, "div.panel-group + p", "BottomText"));
