@@ -5,10 +5,10 @@ module.exports = {
             "name": "Service",
             "selector": { "type": "UrlPatternSelector", "value": "\\\/service\\\/?$" },
             "properties": {
-                "heading": { "name": "heading", "type": "PageHeading", "selector": {} },
-                "subHeading": { "name": "subHeading", "type": "SectionHeading", "selector": { "type": "CssSelector", "value": "#content > div.container > div.row > div > h4" } },
-                "introduction": { "name": "introduction", "type": "Text", "selector": { "type": "CssSelector", "value": "#content > div.container > div.row > div > div > p" } },
-                "faqSections": { "name": "faqSections", "type": "FAQSection", "selector": {} }
+                "heading": { "name": "heading", "type": "PageHeading", "isCollection": false, "selector": {} },
+                "subHeading": { "name": "subHeading", "type": "SectionHeading", "isCollection": false, "selector": { "type": "CssSelector", "value": "#content > div.container > div.row > div > h4" } },
+                "introduction": { "name": "introduction", "type": "Text", "isCollection": false, "selector": { "type": "CssSelector", "value": "#content > div.container > div.row > div > div > p" } },
+                "faqSections": { "name": "faqSections", "type": "FAQSection", "isCollection": true, "selector": {} }
             },
             "references": {
             }
@@ -19,8 +19,8 @@ module.exports = {
             "name": "FAQSection",
             "selector": { "type": "CssSelector", "value": "#content div.panel-group" },
             "properties": {
-                "title": { "name": "title", "type": "SectionHeading", "selector": {} },
-                "entries": { "name": "entries", "type": "FAQEntry", "selector": {} }
+                "title": { "name": "title", "type": "SectionHeading", "isCollection": false, "selector": {} },
+                "entries": { "name": "entries", "type": "FAQEntry", "isCollection": true, "selector": {} }
             },
             "references": {
             }
@@ -29,8 +29,8 @@ module.exports = {
             "name": "FAQEntry",
             "selector": { "type": "CssSelector", "value": "#content article.hrf-entry" },
             "properties": {
-                "question": { "name": "question", "type": "FAQQuestion", "selector": {} },
-                "answer": { "name": "answer", "type": "FAQAnswer", "selector": {} }
+                "question": { "name": "question", "type": "FAQQuestion", "isCollection": false, "selector": {} },
+                "answer": { "name": "answer", "type": "FAQAnswer", "isCollection": false, "selector": {} }
             },
             "references": {
             }
