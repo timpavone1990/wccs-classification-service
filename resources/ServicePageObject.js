@@ -33,6 +33,16 @@ module.exports = () => {
                 },
                 "properties": {}
             },
+            "closing": {
+                "type": "Text",
+                "content": "Wurden Ihre Fragen beantwortet?\nFalls nicht, sprechen Sie uns bitte an. Sie finden Ihre Ansprechpartnerin/Ihren Ansprechpartner unter Kontakt.",
+                "selector": {
+                    "type": "RangeSelector",
+                    "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/p[1]", "offset": 0 },
+                    "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/p[1]", "offset": 142 }
+                },
+                "properties": {}
+            },
             "faqSections": [
                 {
                     "type": "FAQSection",

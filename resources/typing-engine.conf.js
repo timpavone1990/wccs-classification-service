@@ -8,13 +8,38 @@ module.exports = {
                 "heading": { "name": "heading", "type": "PageHeading", "isCollection": false, "selector": {} },
                 "subHeading": { "name": "subHeading", "type": "SectionHeading", "isCollection": false, "selector": { "type": "CssSelector", "value": "#content > div.container > div.row > div > h4" } },
                 "introduction": { "name": "introduction", "type": "Text", "isCollection": false, "selector": { "type": "CssSelector", "value": "#content > div.container > div.row > div > div > p" } },
-                "faqSections": { "name": "faqSections", "type": "FAQSection", "isCollection": true, "selector": {} }
+                "faqSections": { "name": "faqSections", "type": "FAQSection", "isCollection": true, "selector": {} },
+                "closing": { "name": "closing", "type": "Text", "isCollection": false, "selector": { "type": "CssSelector", "value": "#content div.panel-group + p" } }
             },
             "references": {
             }
         }
     },
     "contentTypes": {
+        "PageHeading": {
+            "name": "PageHeading",
+            "selector": { "type": "CssSelector", "value": "#content h3" },
+            "properties": {
+            },
+            "references": {
+            }
+        },
+        "SectionHeading": {
+            "name": "SectionHeading",
+            "selector": { "type": "CssSelector", "value": "#content h4" },
+            "properties": {
+            },
+            "references": {
+            }
+        },
+        "Text": {
+            "name": "Text",
+            "selector": { "type": "CssSelector", "value": "p" },
+            "properties": {
+            },
+            "references": {
+            }
+        },
         "FAQSection": {
             "name": "FAQSection",
             "selector": { "type": "CssSelector", "value": "#content div.panel-group" },
@@ -50,42 +75,8 @@ module.exports = {
             },
             "references": {
             }
-        },
-        "PageHeading": {
-            "name": "PageHeading",
-            "selector": { "type": "CssSelector", "value": "#content h3" },
-            "properties": {
-            },
-            "references": {
-            }
-        },
-        "SectionHeading": {
-            "name": "SectionHeading",
-            "selector": { "type": "CssSelector", "value": "#content h4" },
-            "properties": {
-            },
-            "references": {
-            }
-        },
-        "Text": {
-            "name": "Text",
-            "selector": { "type": "CssSelector", "value": "p" },
-            "properties": {
-            },
-            "references": {
-            }
         }
     },
     "referenceTypes": {
     }
 };
-
-/*
-"use strict";
-const functions = [];
-functions.push((document, createAnnotation) => createAnnotation(document, "h6.hrf-title", "Question"));
-functions.push((document, createAnnotation) => createAnnotation(document, "div.hrf-content", "Answer"));
-functions.push((document, createAnnotation) => createAnnotation(document, "div.panel-group + p", "BottomText"));
-functions.push((document, createAnnotation) => createAnnotation(document, "h4.entry-title a", "NewsDetailPage"));
-exports.getFunctions = () => functions;
-*/
