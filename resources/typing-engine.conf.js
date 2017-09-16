@@ -38,6 +38,7 @@ module.exports = {
             "properties": {
             },
             "references": {
+                "links": { "name": "links", "type": "Link", "isCollection": true, "selector": {} }
             }
         },
         "FAQSection": {
@@ -74,9 +75,22 @@ module.exports = {
             "properties": {
             },
             "references": {
+                "downloadsLink": { "name": "downloadsLink", "type": "Downloads", "isCollection": false, "selector": {} }
             }
         }
     },
     "referenceTypes": {
+        "Link": {
+            "name": "Link",
+            "selector": { "type": "CssSelector", "value": "a" },
+            "properties": {
+            }
+        },
+        "Downloads": {
+            "name": "Downloads",
+            "selector": { "type": "UrlPatternSelector", "value": "http:\\\/\\\/www.fernuni-hagen.de\\\/KSW\\\/portale\\\/.+?\\\/service\\\/downloads\\\/?" },
+            "properties": {
+            }
+        }
     }
 };
