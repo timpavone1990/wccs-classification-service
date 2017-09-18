@@ -12,6 +12,7 @@ module.exports = {
                 "closing": { "name": "closing", "type": "Text", "isCollection": false, "selector": { "type": "CssSelector", "value": "#content div.panel-group + p" } }
             },
             "references": {
+                "servicePages": { "name": "servicePages", "type": "ServicePage", "isCollection": true, "selector": {} }
             }
         }
     },
@@ -38,7 +39,7 @@ module.exports = {
             "properties": {
             },
             "references": {
-                "links": { "name": "links", "type": "Link", "isCollection": true, "selector": {} }
+                "fernUniLinks": { "name": "fernUniLinks", "type": "FernUniInternalLink", "isCollection": true, "selector": {} }
             }
         },
         "FAQSection": {
@@ -75,20 +76,19 @@ module.exports = {
             "properties": {
             },
             "references": {
-                "downloadsLink": { "name": "downloadsLink", "type": "Downloads", "isCollection": false, "selector": {} }
             }
         }
     },
     "referenceTypes": {
-        "Link": {
-            "name": "Link",
-            "selector": { "type": "CssSelector", "value": "a" },
+        "FernUniInternalLink": {
+            "name": "FernUniInternalLink",
+            "selector": { "type": "UrlPatternSelector", "value": "^((http(s?):\\\/\\\/www\\.fernuni-hagen\\.de\\\/?)|\\\/).*$" },
             "properties": {
             }
         },
-        "Downloads": {
-            "name": "Downloads",
-            "selector": { "type": "UrlPatternSelector", "value": "http:\\\/\\\/www.fernuni-hagen.de\\\/KSW\\\/portale\\\/.+?\\\/service\\\/downloads\\\/?" },
+        "ServicePage": {
+            "name": "ServicePage",
+            "selector": { "type": "CssSelector", "value": "ul#menu-service a" },
             "properties": {
             }
         }

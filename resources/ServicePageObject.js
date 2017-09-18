@@ -45,14 +45,26 @@ module.exports = () => {
                     "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/p[1]", "offset": 142 }
                 },
                 "properties": {},
-                "references": {}
+                "references": {
+                    "fernUniLinks": [
+                        {
+                            "type": "FernUniInternalLink",
+                            "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/service/kontakt/",
+                            "selector": {
+                                "type": "RangeSelector",
+                                "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/p[1]/a[1]", "offset": 0 },
+                                "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/p[1]/a[1]", "offset": 7 }
+                            }
+                        }
+                    ]
+                }
             },
             "faqSections": [
                 {
                     "type": "FAQSection",
                     "selector": {
                         "type": "RangeSelector",
-                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]", "offset": 0, },
+                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]", "offset": 24, },
                         "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]", "offset": 0 }
                     },
                     "properties": {
@@ -73,7 +85,7 @@ module.exports = () => {
                                 "selector": {
                                     "type": "RangeSelector",
                                     "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/article[1]", "offset": 0 },
-                                    "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/article[1]", "offset": 0 }
+                                    "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/article[1]", "offset": 139 }
                                 },
                                 "properties": {
                                     "question": {
@@ -110,7 +122,7 @@ module.exports = () => {
                                 "selector": {
                                     "type": "RangeSelector",
                                     "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/article[2]", "offset": 0 },
-                                    "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/article[2]", "offset": 0 }
+                                    "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/article[2]", "offset": 45 }
                                 },
                                 "properties": {
                                     "question": {
@@ -143,7 +155,7 @@ module.exports = () => {
                                 "selector": {
                                     "type": "RangeSelector",
                                     "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/article[3]", "offset": 0 },
-                                    "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/article[3]", "offset": 0 }
+                                    "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/article[3]", "offset": 87 }
                                 },
                                 "properties": {
                                     "question": {
@@ -179,7 +191,7 @@ module.exports = () => {
                     "type": "FAQSection",
                     "selector": {
                         "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[3]", "offset": 0 },
-                        "endSelector": { "offset": 0, "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[3]" },
+                        "endSelector": { "offset": 23, "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[3]" },
                         "type": "RangeSelector"
                     },
                     "properties": {
@@ -199,7 +211,7 @@ module.exports = () => {
                                 "type": "FAQEntry",
                                 "selector": {
                                     "type": "RangeSelector",
-                                    "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[2]/div[1]/div[1]/article[1]", "offset": 0 },
+                                    "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[2]/div[1]/div[1]/article[1]", "offset": 152 },
                                     "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[2]/div[1]/div[1]/article[1]", "offset": 0 }
                                 },
                                 "properties": {
@@ -237,7 +249,7 @@ module.exports = () => {
                     "selector": {
                         "type": "RangeSelector",
                         "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]", "offset": 0 },
-                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]", "offset": 0 }
+                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]", "offset": 26 }
                     },
                     "properties": {
                         "title": {
@@ -288,7 +300,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 107,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[1]/div[1]/article[1]"
                                     },
@@ -345,7 +357,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 93,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[1]/div[1]/article[2]"
                                     },
@@ -402,7 +414,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 35,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[1]/div[1]/article[3]"
                                     },
@@ -459,7 +471,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 44,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[1]/div[1]/article[4]"
                                     },
@@ -481,7 +493,7 @@ module.exports = () => {
                     "selector": {
                         "type": "RangeSelector",
                         "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[5]", "offset": 0 },
-                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[5]", "offset": 0 }
+                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[5]", "offset": 14 }
                     },
                     "properties": {
                         "title": {
@@ -540,7 +552,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 55,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[2]/div[1]/div[1]/article[1]"
                                     },
@@ -562,7 +574,7 @@ module.exports = () => {
                     "selector": {
                         "type": "RangeSelector",
                         "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]", "offset": 0 },
-                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]", "offset": 0 }
+                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]", "offset": 20 }
                     },
                     "properties": {
                         "title": {
@@ -621,7 +633,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 93,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[1]"
                                     },
@@ -678,7 +690,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 65,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[2]"
                                     },
@@ -735,7 +747,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 56,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[3]"
                                     },
@@ -792,7 +804,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 75,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[4]"
                                     },
@@ -849,7 +861,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 42,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[5]"
                                     },
@@ -906,7 +918,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 210,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[6]"
                                     },
@@ -963,7 +975,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 55,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[7]"
                                     },
@@ -1020,7 +1032,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 46,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[8]"
                                     },
@@ -1077,7 +1089,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 46,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[9]"
                                     },
@@ -1099,7 +1111,7 @@ module.exports = () => {
                     "selector": {
                         "type": "RangeSelector",
                         "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[7]", "offset": 0 },
-                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[7]", "offset": 0 }
+                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[7]", "offset": 10 }
                     },
                     "properties": {
                         "title": {
@@ -1158,7 +1170,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 40,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[2]/div[1]/div[1]/article[1]"
                                     },
@@ -1215,7 +1227,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 51,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[2]/div[1]/div[1]/article[2]"
                                     },
@@ -1272,7 +1284,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 72,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[2]/div[1]/div[1]/article[3]"
                                     },
@@ -1294,7 +1306,7 @@ module.exports = () => {
                     "selector": {
                         "type": "RangeSelector",
                         "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[8]", "offset": 0 },
-                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[8]", "offset": 0 }
+                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[8]", "offset": 19 }
                     },
                     "properties": {
                         "title": {
@@ -1353,7 +1365,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 52,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[8]/div[1]/div[2]/div[1]/div[1]/article[1]"
                                     },
@@ -1410,7 +1422,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 34,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[8]/div[1]/div[2]/div[1]/div[1]/article[2]"
                                     },
@@ -1467,7 +1479,7 @@ module.exports = () => {
                                 "references": {},
                                 "selector": {
                                     "endSelector": {
-                                        "offset": 0,
+                                        "offset": 77,
                                         "type": "XPathSelector",
                                         "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[8]/div[1]/div[2]/div[1]/div[1]/article[3]"
                                     },
@@ -1486,6 +1498,63 @@ module.exports = () => {
                 }
             ]
         },
-        "references": {}
+        "references": {
+            "servicePages": [
+                {
+                    "type": "ServicePage",
+                    "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/service/",
+                    "selector": {
+                        "type": "RangeSelector",
+                        "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[1]/aside[1]/div[1]/div[1]/ul[1]/li[1]/a[1]", "offset": 0 },
+                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[1]/aside[1]/div[1]/div[1]/ul[1]/li[1]/a[1]", "offset": 7 }
+                    }
+                },
+                {
+                    "type": "ServicePage",
+                    "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/service/aktuelles/",
+                    "selector": {
+                        "type": "RangeSelector",
+                        "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[1]/aside[1]/div[1]/div[1]/ul[1]/li[2]/a[1]", "offset": 0 },
+                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[1]/aside[1]/div[1]/div[1]/ul[1]/li[2]/a[1]", "offset": 9 }
+                    }
+                },
+                {
+                    "type": "ServicePage",
+                    "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/service/kontakt/",
+                    "selector": {
+                        "type": "RangeSelector",
+                        "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[1]/aside[1]/div[1]/div[1]/ul[1]/li[3]/a[1]", "offset": 0 },
+                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[1]/aside[1]/div[1]/div[1]/ul[1]/li[3]/a[1]", "offset": 7 }
+                    }
+                },
+                {
+                    "type": "ServicePage",
+                    "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/service/downloads/",
+                    "selector": {
+                        "type": "RangeSelector",
+                        "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[1]/aside[1]/div[1]/div[1]/ul[1]/li[4]/a[1]", "offset": 0 },
+                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[1]/aside[1]/div[1]/div[1]/ul[1]/li[4]/a[1]", "offset": 9 }
+                    }
+                },
+                {
+                    "type": "ServicePage",
+                    "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/service/online-systeme/",
+                    "selector": {
+                        "type": "RangeSelector",
+                        "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[1]/aside[1]/div[1]/div[1]/ul[1]/li[5]/a[1]", "offset": 0 },
+                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[1]/aside[1]/div[1]/div[1]/ul[1]/li[5]/a[1]", "offset": 14 }
+                    }
+                },
+                {
+                    "type": "ServicePage",
+                    "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/service/vom-bachelor-zum-master/",
+                    "selector": {
+                        "type": "RangeSelector",
+                        "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[1]/aside[1]/div[1]/div[1]/ul[1]/li[6]/a[1]", "offset": 0 },
+                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[1]/aside[1]/div[1]/div[1]/ul[1]/li[6]/a[1]", "offset": 23 }
+                    }
+                }
+            ]
+        }
     }
 };
