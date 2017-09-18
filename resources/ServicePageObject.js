@@ -278,9 +278,8 @@ module.exports = () => {
                                         "references": {}
                                     },
                                     "answer": {
+                                        "type": "FAQAnswer",
                                         "content": "Kein Problem. Beruflich Qualifizierte haben die Möglichkeit, ein Probestudium an der FernUniversität aufzunehmen. Sie studieren im Probestudium gemäß dem Studienplan als Vollzeit- oder Teilzeitstudierender und legen die vorgesehenen Prüfungen ab. Das Probestudium im Bachelorstudiengang Bildungswissenschaft gilt als erfolgreich abgeschlossen, wenn Sie nach mindestens vier und maximal acht Semestern mindestens 6 Module (entspricht 90 ECTS) bestanden haben. Eine weitere Möglichkeit den Hochschulzugang zu erlangen, besteht über das Absolvieren einer Zugangsprüfung. Sie besteht aus zwei Klausuren, mit denen allgemeine und für den jeweiligen Studiengang erforderliche Kenntnisse überprüft werden. Wenn Ihre Qualifikation als fachlich entsprechend eingestuft wurde und Sie zusätzlich eine mind. 3-jährige Berufspraxis in diesem Ausbildungsberuf nachweisen, ist eine direkte Einschreibung (ohne Probestudium oder Zugangsprüfung) in den Studiengang möglich. Dies gilt derzeit für diese Ausbildungsberufe. \n\n",
-                                        "properties": {},
-                                        "references": {},
                                         "selector": {
                                             "endSelector": {
                                                 "offset": 1006,
@@ -294,7 +293,79 @@ module.exports = () => {
                                             },
                                             "type": "RangeSelector"
                                         },
-                                        "type": "FAQAnswer"
+                                        "properties": {},
+                                        "references": {
+                                            "fernUniLinks": [
+                                                {
+                                                    "destination": "http://www.fernuni-hagen.de/studium/studienangebot/beruflich_qualifizierte/",
+                                                    "selector": {
+                                                        "endSelector": {
+                                                            "offset": 23,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]/p[1]/span[1]/a[1]"
+                                                        },
+                                                        "startSelector": {
+                                                            "offset": 0,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]/p[1]/span[1]/a[1]"
+                                                        },
+                                                        "type": "RangeSelector"
+                                                    },
+                                                    "type": "FernUniInternalLink"
+                                                },
+                                                {
+                                                    "destination": "http://www.fernuni-hagen.de/studium/studienangebot/beruflich_qualifizierte/probestudium.shtml",
+                                                    "selector": {
+                                                        "endSelector": {
+                                                            "offset": 12,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]/p[1]/span[2]/a[1]"
+                                                        },
+                                                        "startSelector": {
+                                                            "offset": 0,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]/p[1]/span[2]/a[1]"
+                                                        },
+                                                        "type": "RangeSelector"
+                                                    },
+                                                    "type": "FernUniInternalLink"
+                                                },
+                                                {
+                                                    "destination": "http://www.fernuni-hagen.de/studium/studienangebot/beruflich_qualifizierte/zugangspruefung.shtml",
+                                                    "selector": {
+                                                        "endSelector": {
+                                                            "offset": 14,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]/p[1]/span[3]/a[1]"
+                                                        },
+                                                        "startSelector": {
+                                                            "offset": 0,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]/p[1]/span[3]/a[1]"
+                                                        },
+                                                        "type": "RangeSelector"
+                                                    },
+                                                    "type": "FernUniInternalLink"
+                                                },
+                                                {
+                                                    "destination": "http://www.fernuni-hagen.de/studium/studienangebot/beruflich_qualifizierte/fachliche_eignung.shtml",
+                                                    "selector": {
+                                                        "endSelector": {
+                                                            "offset": 23,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]/p[1]/span[4]/a[1]"
+                                                        },
+                                                        "startSelector": {
+                                                            "offset": 0,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]/p[1]/span[4]/a[1]"
+                                                        },
+                                                        "type": "RangeSelector"
+                                                    },
+                                                    "type": "FernUniInternalLink"
+                                                }
+                                            ]
+                                        }
                                     }
                                 },
                                 "references": {},
@@ -532,7 +603,44 @@ module.exports = () => {
                                     "answer": {
                                         "content": "Module aus anderen Studiengängen können anerkannt werden, sofern sie mit den Inhalten der B.A.-Module übereinstimmen. Haben Sie an einer anderen Universität bereits Module in der Bildungswissenschaft absolviert, können diese nach Überprüfung anerkannt werden. Da sich die Modulprüfungen auf alle verbindlichen Inhalte des Moduls beziehen, können nur ganze Module anerkannt werden, keine Teilleistungen. Bedauerlicherweise können auch keine Prüfungsleistungen aus dem Bachelor Kulturwissenschaften oder dem Bachelor Politik und Organisation anerkannt werden, da sie inhaltlich ganz anders ausgerichtet sind. Allerdings kann das dort abgeleistete Praktikum angerechnet werden. Weitere Informationen finden Sie unter „Anerkennungen„.\n\nAnerkennungen aus Magister-/Diplom- oder Lehramtsstudiengängen können i.d.R. nicht auf die Bachelorstudiengänge angerechnet werden. Das liegt an der Modularisierung des Studiengangs: Statt Leistungsnachweise und Blockprüfungen (Zwischen- und Abschlussprüfungen) wird jetzt jedes Modul durch eine Prüfungsleistung abgeschlossen. Die Summe dieser Prüfungsleistungen ergibt dann den Abschluss „Bachelor of Arts Bildungswissenschaft“. Deshalb ist eine Vergleichbarkeit mit den vorgenannten Studiengängen bzw. -leistungen nicht gegeben. Hier gilt die Regelung: Wer bereits das Vordiplom oder die Zwischenprüfung im Hauptfach Erziehungswissenschaft erfolgreich abgelegt hat, bekommt das Modul 1A des B.A. Bildungswissenschaft bei Vorlage einer beglaubigten Kopie des entsprechenden Zeugnisses anerkannt. \n\nWeitere Informationen zu Anerkennungen und die entsprechenden Formulare finden Sie hier.\n\n \n\n",
                                         "properties": {},
-                                        "references": {},
+                                        "references": {
+                                            "fernUniLinks": [
+                                                {
+                                                    "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/einstieg/anerkennung-bereits-erbrachter-studien-und-pruefungsleistungen/",
+                                                    "selector": {
+                                                        "endSelector": {
+                                                            "offset": 13,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]/p[1]/a[1]"
+                                                        },
+                                                        "startSelector": {
+                                                            "offset": 0,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]/p[1]/a[1]"
+                                                        },
+                                                        "type": "RangeSelector"
+                                                    },
+                                                    "type": "FernUniInternalLink"
+                                                },
+                                                {
+                                                    "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/einstieg/anerkennung-bereits-erbrachter-studien-und-pruefungsleistungen/",
+                                                    "selector": {
+                                                        "endSelector": {
+                                                            "offset": 4,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]/p[3]/a[1]"
+                                                        },
+                                                        "startSelector": {
+                                                            "offset": 0,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]/p[3]/a[1]"
+                                                        },
+                                                        "type": "RangeSelector"
+                                                    },
+                                                    "type": "FernUniInternalLink"
+                                                }
+                                            ]
+                                        },
                                         "selector": {
                                             "endSelector": {
                                                 "offset": 1625,
@@ -727,7 +835,27 @@ module.exports = () => {
                                     "answer": {
                                         "content": "Der Studienverlauf gliedert sich in drei Studienphasen. Die Reihenfolge der Wahl der Module ist innerhalb der Studienphasen flexibel. Für den Übergang von der ersten in die zweite Studienphase sind drei erfolgreich abgeschlossene Module der ersten Studienphase notwendig. Für die Meldung zur Prüfung im Modul 2C „Psychologisches Wahlpflichtmodul“ muss das Modul 1D „Empirische Bildungsforschung – quantitative Methoden“ erfolgreich absolviert sein. Zu den Prüfungen im Profilstudium wird zugelassen, wer vier Modulprüfungen aus dem Kernstudium 1 und drei aus dem Kernstudium 2 bestanden hat. Ab dem Sommersemester 2016 wird zu den Prüfungen im Profilstudium zugelassen, wer vier Modulprüfungen aus dem Kernstudium 1 und drei aus dem Kernstudium 2, welche das Modul 2C beinhalten müssen, bestanden hat. Einen idealtypischen Verlaufsplan finden Sie im Modulhandbuch.\n\n",
                                         "properties": {},
-                                        "references": {},
+                                        "references": {
+                                            "fernUniLinks": [
+                                                {
+                                                    "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/service/downloads/",
+                                                    "selector": {
+                                                        "endSelector": {
+                                                            "offset": 13,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[3]/div[1]/p[1]/a[1]"
+                                                        },
+                                                        "startSelector": {
+                                                            "offset": 0,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[3]/div[1]/p[1]/a[1]"
+                                                        },
+                                                        "type": "RangeSelector"
+                                                    },
+                                                    "type": "FernUniInternalLink"
+                                                }
+                                            ]
+                                        },
                                         "selector": {
                                             "endSelector": {
                                                 "offset": 866,
@@ -784,7 +912,27 @@ module.exports = () => {
                                     "answer": {
                                         "content": "Alles Wissenswerte zum Praktikum ist in den Informationen zum Praktikum zu finden.\n\n",
                                         "properties": {},
-                                        "references": {},
+                                        "references": {
+                                            "fernUniLinks": [
+                                                {
+                                                    "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/service/downloads/",
+                                                    "selector": {
+                                                        "endSelector": {
+                                                            "offset": 27,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[4]/div[1]/p[1]/a[1]"
+                                                        },
+                                                        "startSelector": {
+                                                            "offset": 0,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[4]/div[1]/p[1]/a[1]"
+                                                        },
+                                                        "type": "RangeSelector"
+                                                    },
+                                                    "type": "FernUniInternalLink"
+                                                }
+                                            ]
+                                        },
                                         "selector": {
                                             "endSelector": {
                                                 "offset": 84,
@@ -898,7 +1046,27 @@ module.exports = () => {
                                     "answer": {
                                         "content": "Die Betreuung in unserem Fernstudium geschieht durch die Modulbetreuerinnen und -betreuer aus den Lehrgebieten an der FeU und durch Mentorinnen und Mentoren in den verschiedenen bundesweiten Regionalzentren. Wenn Sie z.B. inhaltliche Fragen zu den Studienmaterialien haben, können Sie die Modulbetreuerinnen und -betreuer ansprechen. Außerdem gibt es in Ihrer Region in der Regel auch ein Regionalzentrum, in dem Mentorinnen und Mentoren für den BA zuständig sein werden und z.B. in Präsenzveranstaltungen die zu erbringenden Prüfungsleistungen mit Ihnen vorbereiten. Ein Verzeichnis aller Regionalzentren finden Sie im Internet unter: http://www.fernuni-hagen.de/universitaet/einrichtungen/studienzentren\n\n",
                                         "properties": {},
-                                        "references": {},
+                                        "references": {
+                                            "fernUniLinks": [
+                                                {
+                                                    "destination": "http://www.fernuni-hagen.de/universitaet/einrichtungen/studienzentren",
+                                                    "selector": {
+                                                        "endSelector": {
+                                                            "offset": 69,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[6]/div[1]/p[1]/span[1]/a[1]"
+                                                        },
+                                                        "startSelector": {
+                                                            "offset": 0,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[6]/div[1]/p[1]/span[1]/a[1]"
+                                                        },
+                                                        "type": "RangeSelector"
+                                                    },
+                                                    "type": "FernUniInternalLink"
+                                                }
+                                            ]
+                                        },
                                         "selector": {
                                             "endSelector": {
                                                 "offset": 707,
@@ -1012,7 +1180,27 @@ module.exports = () => {
                                     "answer": {
                                         "content": "Sämtliche Informationen zu den anfallenden Gebühren finden Sie auf den allgemeinen Informationsseiten der FernUniversität.\n\n",
                                         "properties": {},
-                                        "references": {},
+                                        "references": {
+                                            "fernUniLinks": [
+                                                {
+                                                    "destination": "http://www.fernuni-hagen.de/studium/studienorganisation/gebuehren/",
+                                                    "selector": {
+                                                        "endSelector": {
+                                                            "offset": 20,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[8]/div[1]/p[1]/span[1]/a[1]"
+                                                        },
+                                                        "startSelector": {
+                                                            "offset": 0,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[8]/div[1]/p[1]/span[1]/a[1]"
+                                                        },
+                                                        "type": "RangeSelector"
+                                                    },
+                                                    "type": "FernUniInternalLink"
+                                                }
+                                            ]
+                                        },
                                         "selector": {
                                             "endSelector": {
                                                 "offset": 124,
@@ -1069,7 +1257,27 @@ module.exports = () => {
                                     "answer": {
                                         "content": "Über Ihr Studienkonto kann Sie das Studierendensekretariat informieren.\n\n",
                                         "properties": {},
-                                        "references": {},
+                                        "references": {
+                                            "fernUniLinks": [
+                                                {
+                                                    "destination": "http://www.fernuni-hagen.de/studium/studienorganisation/studierendensekretariat.shtml",
+                                                    "selector": {
+                                                        "endSelector": {
+                                                            "offset": 23,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[9]/div[1]/p[1]/span[1]/a[1]"
+                                                        },
+                                                        "startSelector": {
+                                                            "offset": 0,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/article[9]/div[1]/p[1]/span[1]/a[1]"
+                                                        },
+                                                        "type": "RangeSelector"
+                                                    },
+                                                    "type": "FernUniInternalLink"
+                                                }
+                                            ]
+                                        },
                                         "selector": {
                                             "endSelector": {
                                                 "offset": 73,
@@ -1345,7 +1553,61 @@ module.exports = () => {
                                     "answer": {
                                         "content": "Sie können die Bachelor-Arbeit (z.B. per E-Mail) beim Prüfungsamt der Fakultät für Kultur- und Sozialwissenschaften anmelden, indem Sie einen formlosen Antrag auf Zulassung stellen. Alle Informationen finden Sie in diesem Dokument.\nDie Richtlinien zur „B.A. Abschlussarbeit“ sind im § 16 der Studienordnung festgelegt. Sie können die Studienordnung hier nachlesen. Der B.A.-Themenstellung wird ein „Beipackzettel“ mit Hinweisen über die B.A.-Arbeit beigefügt.\n\n",
                                         "properties": {},
-                                        "references": {},
+                                        "references": {
+                                            "fernUniLinks": [
+                                                {
+                                                    "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/wp-content/uploads/sites/3/2015/06/Hinweise-zur-B.A.-Arbeit.pdf",
+                                                    "selector": {
+                                                        "endSelector": {
+                                                            "offset": 15,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[8]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]/p[1]/a[1]"
+                                                        },
+                                                        "startSelector": {
+                                                            "offset": 0,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[8]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]/p[1]/a[1]"
+                                                        },
+                                                        "type": "RangeSelector"
+                                                    },
+                                                    "type": "FernUniInternalLink"
+                                                },
+                                                {
+                                                    "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/wp-content/uploads/sites/3/2015/06/sto_babw.pdf",
+                                                    "selector": {
+                                                        "endSelector": {
+                                                            "offset": 4,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[8]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]/p[1]/a[2]"
+                                                        },
+                                                        "startSelector": {
+                                                            "offset": 0,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[8]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]/p[1]/a[2]"
+                                                        },
+                                                        "type": "RangeSelector"
+                                                    },
+                                                    "type": "FernUniInternalLink"
+                                                },
+                                                {
+                                                    "destination": "http://www.fernuni-hagen.de/KSW/download/formulare/Beipackzettel-BA-MA-Arbeiten.pdf",
+                                                    "selector": {
+                                                        "endSelector": {
+                                                            "offset": 15,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[8]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]/p[1]/a[3]"
+                                                        },
+                                                        "startSelector": {
+                                                            "offset": 0,
+                                                            "type": "XPathSelector",
+                                                            "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[8]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]/p[1]/a[3]"
+                                                        },
+                                                        "type": "RangeSelector"
+                                                    },
+                                                    "type": "FernUniInternalLink"
+                                                }
+                                            ]
+                                        },
                                         "selector": {
                                             "endSelector": {
                                                 "offset": 461,

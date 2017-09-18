@@ -76,6 +76,7 @@ module.exports = {
             "properties": {
             },
             "references": {
+                "fernUniLinks": { "name": "fernUniLinks", "type": "FernUniInternalLink", "isCollection": true, "selector": {} }
             }
         }
     },
