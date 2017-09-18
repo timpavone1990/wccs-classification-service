@@ -30,8 +30,8 @@ module.exports = () => {
                 "content": "Viele Fragen zum B.A. Bildungswissenschaft klären sich durch die Lektüre dieser FAQs! Bitte machen Sie zunächst von diesem Angebot Gebrauch, bevor Sie sich an die Studienberatung wenden.\n(Stand: 06/2015)",
                 "selector": {
                     "type": "RangeSelector",
-                    "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[1]/p[1]", "offset": 0, },
-                    "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[1]/p[1]", "offset": 203 },
+                    "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[1]/p[1]", "offset": 0 },
+                    "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[1]/p[1]", "offset": 203 }
                 },
                 "properties": {},
                 "references": {}
@@ -64,7 +64,7 @@ module.exports = () => {
                     "type": "FAQSection",
                     "selector": {
                         "type": "RangeSelector",
-                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]", "offset": 24, },
+                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]", "offset": 24 },
                         "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]", "offset": 0 }
                     },
                     "properties": {
@@ -74,7 +74,7 @@ module.exports = () => {
                             "selector": {
                                 "type": "RangeSelector",
                                 "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/h4[1]", "offset": 0 },
-                                "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/h4[1]", "offset": 23 },
+                                "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/h4[1]", "offset": 23 }
                             },
                             "properties": {},
                             "references": {}
@@ -108,7 +108,7 @@ module.exports = () => {
                                         "content": "Ja. Im Zentrum des Bachelorstudiengangs Bildungswissenschaft steht die Reflexion und Gestaltung von Erziehungs- und Bildungsprozessen. So sind die Module auf typische erziehungswissenschaftliche Themenfelder wie Bildung und Gesellschaft; interkulturelle Erziehungswissenschaft; Bildung, Arbeit und Beruf; Allgemeine Didaktik, Mediendidaktik und Medienpädagogik oder empirische Bildungsforschung ausgerichtet. Ergänzt wird das Curriculum durch Anteile aus der Psychologie und Soziologie. Die Bezeichnung Bachelor „Bildungswissenschaft“ wurde auch deshalb gewählt, weil das lebenslange Lernen als Bildungsaufgabe über die gesamte Lebenszeit betont wird.\n\nNeben dem Fachwissen erwerben Sie in diesem Studiengang Kompetenzen, um Tätigkeiten in gesellschaftlichen und pädagogischen Handlungsfeldern auszuüben. Nach Abschluss des Studiums sollen Sie gegenwärtige Bildungsaufgaben in beruflichen Kontexten ermitteln und gestalten, neue Medien in der beruflichen Praxis anwenden und die Veränderungen der Kommunikationsformen und -inhalte durch den Einsatz neuer Medien reflektieren können.\n\n",
                                         "selector": {
                                             "type": "RangeSelector",
-                                            "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]", "offset": 0, },
+                                            "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]", "offset": 0 },
                                             "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/article[1]/div[1]", "offset": 1084 }
                                         },
                                         "properties": {},
