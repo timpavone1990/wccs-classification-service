@@ -83,15 +83,11 @@ module.exports = {
     "referenceTypes": {
         "FernUniInternalLink": {
             "name": "FernUniInternalLink",
-            "selector": { "type": "UrlPatternSelector", "value": "^((http(s?):\\\/\\\/www\\.fernuni-hagen\\.de\\\/?)|\\\/).*$" },
-            "properties": {
-            }
+            "selector": { "type": "UrlPatternSelector", "value": "^((http(s?):\\\/\\\/www\\.fernuni-hagen\\.de\\\/?)|\\\/).*$" }
         },
         "ServicePage": {
             "name": "ServicePage",
-            "selector": { "type": "CssSelector", "value": "ul#menu-service a" },
-            "properties": {
-            }
+            "selector": { "type": "CssSelector", "value": "ul#menu-service a" }
         }
     }
 };
