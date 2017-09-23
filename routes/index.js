@@ -1,5 +1,6 @@
 "use strict";
 
+const logger = require("../lib/Logger");
 const express = require('express');
 const router = express.Router();
 const unirest = require('unirest');
@@ -17,6 +18,7 @@ const typingEnginePromise = (async () => {
 
 router.post('/', async (request, response, next) => {
     try {
+        logger.info("Incoming request");
         const typingEngine = await typingEnginePromise;
         await typingEngine.processJob(request.body);
         // TODO Location header
