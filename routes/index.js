@@ -18,11 +18,10 @@ const typingEnginePromise = (async () => {
 
 router.post('/', async (request, response, next) => {
     try {
-        logger.info("Incoming request");
         const typingEngine = await typingEnginePromise;
-        await typingEngine.processJob(request.body);
-        // TODO Location header
-        response.status(201).end();
+        typingEngine.processJob(request.body);
+        // TODO Endpoint to query status
+        response.status(202).end();
     } catch (e) {
         next(e);
     }
