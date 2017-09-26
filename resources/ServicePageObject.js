@@ -3,6 +3,46 @@ module.exports = () => {
         "type": "Service",
         "url": `file://${process.cwd()}/resources/babw/service`,
         "properties": {
+            "header": {
+                "type": "Header",
+                "selector": {
+                    "type": "RangeSelector",
+                    "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/header[1]", "offset": 0 },
+                    "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/header[1]", "offset": 43 }
+                },
+                "properties": {
+                    "fernUni": {
+                        "type": "Brand",
+                        "selector": {
+                            "type": "RangeSelector",
+                            "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[1]/a[1]", "offset": 0 },
+                            "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[1]/a[1]", "offset": 0 }
+                        },
+                        "references": {
+                            "homepage": {
+                                "type": "FernUniInternalLink",
+                                "destination": "http://www.fernuni-hagen.de/",
+                                "selector": {
+                                    "type": "RangeSelector",
+                                    "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[1]/a[1]", "offset": 0 },
+                                    "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[1]/a[1]", "offset": 0 }
+                                }
+                            },
+                            "logo": {
+                                "type": "Image",
+                                "destination": "service_files/feulogo.png",
+                                "selector": {
+                                    "type": "RangeSelector",
+                                    "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[1]/a[1]/img[1]", "offset": 0 },
+                                    "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[1]/a[1]/img[1]", "offset": 0 }
+                                }
+                            }
+                        },
+                        "properties": {}
+                    }
+                },
+                "references": {}
+            },
             "portal": {
                 "type": "Portal",
                 "content": "B.A. Bildungswissenschaft",

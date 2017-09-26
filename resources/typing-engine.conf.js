@@ -5,6 +5,7 @@ module.exports = {
             "name": "Service",
             "selector": { "type": "UrlPatternSelector", "value": "\\\/service\\\/?$" },
             "properties": {
+                "header": { "name": "header", "type": "Header", "isCollection": false, "selector": {} },
                 "portal": { "name": "portal", "type": "Portal", "isCollection": false, "selector": {} },
                 "heading": { "name": "heading", "type": "PageHeading", "isCollection": false, "selector": {} },
                 "subHeading": { "name": "subHeading", "type": "SectionHeading", "isCollection": false, "selector": { "type": "CssSelector", "value": "#content > div.container > div.row > div > h4" } },
@@ -53,6 +54,25 @@ module.exports = {
                 "homepage": { "name": "homepage", "type": "FernUniInternalLink", "isCollection": false, "selector": { "type": "XPathSelector", "value": "." } }
             }
         },
+        "Header": {
+            "name": "Header",
+            "selector": { "type": "CssSelector", "value": "header" },
+            "properties": {
+                "fernUni": { "name": "fernUni", "type": "Brand", "isCollection": false, "selector": { "type": "XPathSelector", "value": "\/\/a[@class=\"navbar-brand\"]" } }
+            },
+            "references": {
+            }
+        },
+        "Brand": {
+            "name": "Brand",
+            "selector": {},
+            "properties": {
+            },
+            "references": {
+                "homepage": { "name": "homepage", "type": "FernUniInternalLink", "isCollection": false, "selector": { "type": "XPathSelector", "value": "." } },
+                "logo": { "name": "logo", "type": "Image", "isCollection": false, "selector": { "type": "XPathSelector", "value": ".\/img" } }
+            }
+        },
         "FAQSection": {
             "name": "FAQSection",
             "selector": { "type": "CssSelector", "value": "#content div.panel-group" },
@@ -92,6 +112,10 @@ module.exports = {
         }
     },
     "referenceTypes": {
+        "Image": {
+            "name": "Image",
+            "selector": { "type": "CssSelector", "value": "img" }
+        },
         "FernUniInternalLink": {
             "name": "FernUniInternalLink",
             "selector": { "type": "UrlPatternSelector", "value": "^((http(s?):\\\/\\\/www\\.fernuni-hagen\\.de\\\/?)|\\\/).*$" }
