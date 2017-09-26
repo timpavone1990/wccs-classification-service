@@ -5,6 +5,7 @@ module.exports = {
             "name": "Service",
             "selector": { "type": "UrlPatternSelector", "value": "\\\/service\\\/?$" },
             "properties": {
+                "portal": { "name": "portal", "type": "Portal", "isCollection": false, "selector": {} },
                 "heading": { "name": "heading", "type": "PageHeading", "isCollection": false, "selector": {} },
                 "subHeading": { "name": "subHeading", "type": "SectionHeading", "isCollection": false, "selector": { "type": "CssSelector", "value": "#content > div.container > div.row > div > h4" } },
                 "introduction": { "name": "introduction", "type": "Text", "isCollection": false, "selector": { "type": "CssSelector", "value": "#content > div.container > div.row > div > div > p" } },
@@ -40,6 +41,15 @@ module.exports = {
             },
             "references": {
                 "fernUniLinks": { "name": "fernUniLinks", "type": "FernUniInternalLink", "isCollection": true, "selector": {} }
+            }
+        },
+        "Portal": {
+            "name": "Portal",
+            "selector": { "type": "CssSelector", "value": "section#inner-headline a.content" },
+            "properties": {
+            },
+            "references": {
+                "homepage": { "name": "homepage", "type": "FernUniInternalLink", "isCollection": false, "selector": { "type": "XPathSelector", "value": "." } }
             }
         },
         "FAQSection": {

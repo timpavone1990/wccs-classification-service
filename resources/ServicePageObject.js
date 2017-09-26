@@ -3,6 +3,27 @@ module.exports = () => {
         "type": "Service",
         "url": `file://${process.cwd()}/resources/babw/service`,
         "properties": {
+            "portal": {
+                "type": "Portal",
+                "content": "B.A. Bildungswissenschaft",
+                "selector": {
+                    "type": "RangeSelector",
+                    "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[1]/h3[1]/a[1]", "offset": 0 },
+                    "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[1]/h3[1]/a[1]", "offset": 25 }
+                },
+                "references": {
+                    "homepage": {
+                        "type": "FernUniInternalLink",
+                        "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/",
+                        "selector": {
+                            "type": "RangeSelector",
+                            "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[1]/h3[1]/a[1]", "offset": 0 },
+                            "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[1]/h3[1]/a[1]", "offset": 25 }
+                        }
+                    }
+                },
+                "properties": {}
+            },
             "heading": {
                 "type": "PageHeading",
                 "content": "Service",
