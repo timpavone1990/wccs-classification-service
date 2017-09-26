@@ -1782,6 +1782,85 @@ module.exports = () => {
             ]
         },
         "references": {
+            "siteMainPages": [
+                {
+                    "type": "FernUniInternalLink",
+                    "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/einstieg/",
+                    "selector": {
+                        "type": "RangeSelector",
+                        "startSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1]", "offset": 0 },
+                        "endSelector": { "type": "XPathSelector", "value": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1]", "offset": 9 }
+                    }
+                },
+                {
+                    "type": "FernUniInternalLink",
+                    "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/studium/",
+                    "selector": {
+                        "type": "RangeSelector",
+                        "startSelector": {
+                            "type": "XPathSelector",
+                            "value": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/a[1]",
+                            "offset": 0
+                        },
+                        "endSelector": {
+                            "type": "XPathSelector",
+                            "value": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/a[1]",
+                            "offset": 8
+                        }
+                    }
+                },
+                {
+                    "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/pruefungen/",
+                    "selector": {
+                        "endSelector": {
+                            "offset": 10,
+                            "type": "XPathSelector",
+                            "value": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/a[1]"
+                        },
+                        "startSelector": {
+                            "offset": 0,
+                            "type": "XPathSelector",
+                            "value": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/a[1]"
+                        },
+                        "type": "RangeSelector"
+                    },
+                    "type": "FernUniInternalLink"
+                },
+                {
+                    "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/service/",
+                    "selector": {
+                        "endSelector": {
+                            "offset": 8,
+                            "type": "XPathSelector",
+                            "value": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/a[1]"
+                        },
+                        "startSelector": {
+                            "offset": 0,
+                            "type": "XPathSelector",
+                            "value": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[2]/ul[1]/li[4]/a[1]"
+                        },
+                        "type": "RangeSelector"
+                    },
+                    "type": "FernUniInternalLink"
+                },
+                {
+                    "destination": "http://www.fernuni-hagen.de/KSW/portale/babw/sitemap/",
+                    "selector": {
+                        "endSelector": {
+                            "offset": 1,
+                            "type": "XPathSelector",
+                            "value": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[2]/ul[1]/li[5]/a[1]"
+                        },
+                        "startSelector": {
+                            "offset": 0,
+                            "type": "XPathSelector",
+                            "value": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[2]/ul[1]/li[5]/a[1]"
+                        },
+                        "type": "RangeSelector"
+                    },
+                    "type": "FernUniInternalLink"
+                }
+            ],
             "servicePages": [
                 {
                     "type": "ServicePage",

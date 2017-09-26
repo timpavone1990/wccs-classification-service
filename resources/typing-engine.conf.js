@@ -13,7 +13,8 @@ module.exports = {
                 "closing": { "name": "closing", "type": "Text", "isCollection": false, "selector": { "type": "CssSelector", "value": "#content div.panel-group + p" } }
             },
             "references": {
-                "servicePages": { "name": "servicePages", "type": "ServicePage", "isCollection": true, "selector": {} }
+                "servicePages": { "name": "servicePages", "type": "ServicePage", "isCollection": true, "selector": {} },
+                "siteMainPages": { "name": "siteMainPages", "type": "FernUniInternalLink", "isCollection": true, "selector": { "type": "XPathSelector", "value": "\/\/ul[@id=\"menu-mainmenue\"]\/li\/a" } }
             }
         }
     },
