@@ -2,6 +2,7 @@ module.exports = () => {
     return {
         "type": "Service",
         "url": `file://${process.cwd()}/resources/babw/service`,
+        "status": "Classified",
         "properties": {
             "header": {
                 "type": "Header",
