@@ -4,7 +4,7 @@ module.exports = {
         "Service": {
             "name": "Service",
             "selector": { "type": "UrlPatternSelector", "value": "\\\/service\\\/?$" },
-            "properties": {
+            "contents": {
                 "header": { "name": "header", "type": "Header", "isCollection": false, "selector": {} },
                 "portal": { "name": "portal", "type": "Portal", "isCollection": false, "selector": {} },
                 "heading": { "name": "heading", "type": "PageHeading", "isCollection": false, "selector": {} },
@@ -23,7 +23,7 @@ module.exports = {
         "PageHeading": {
             "name": "PageHeading",
             "selector": { "type": "CssSelector", "value": "#content h3" },
-            "properties": {
+            "contents": {
             },
             "references": {
             }
@@ -31,7 +31,7 @@ module.exports = {
         "SectionHeading": {
             "name": "SectionHeading",
             "selector": { "type": "CssSelector", "value": "#content h4" },
-            "properties": {
+            "contents": {
             },
             "references": {
             }
@@ -39,7 +39,7 @@ module.exports = {
         "Text": {
             "name": "Text",
             "selector": { "type": "CssSelector", "value": "p" },
-            "properties": {
+            "contents": {
             },
             "references": {
                 "fernUniLinks": { "name": "fernUniLinks", "type": "FernUniInternalLink", "isCollection": true, "selector": {} }
@@ -48,7 +48,7 @@ module.exports = {
         "Portal": {
             "name": "Portal",
             "selector": { "type": "CssSelector", "value": "section#inner-headline a.content" },
-            "properties": {
+            "contents": {
             },
             "references": {
                 "homepage": { "name": "homepage", "type": "FernUniInternalLink", "isCollection": false, "selector": { "type": "XPathSelector", "value": "." } }
@@ -57,7 +57,7 @@ module.exports = {
         "Header": {
             "name": "Header",
             "selector": { "type": "CssSelector", "value": "header" },
-            "properties": {
+            "contents": {
                 "fernUni": { "name": "fernUni", "type": "Brand", "isCollection": false, "selector": { "type": "XPathSelector", "value": "\/\/a[@class=\"navbar-brand\"]" } }
             },
             "references": {
@@ -66,7 +66,7 @@ module.exports = {
         "Brand": {
             "name": "Brand",
             "selector": {},
-            "properties": {
+            "contents": {
             },
             "references": {
                 "homepage": { "name": "homepage", "type": "FernUniInternalLink", "isCollection": false, "selector": { "type": "XPathSelector", "value": "." } },
@@ -76,7 +76,7 @@ module.exports = {
         "FAQSection": {
             "name": "FAQSection",
             "selector": { "type": "CssSelector", "value": "#content div.panel-group" },
-            "properties": {
+            "contents": {
                 "title": { "name": "title", "type": "SectionHeading", "isCollection": false, "selector": {} },
                 "entries": { "name": "entries", "type": "FAQEntry", "isCollection": true, "selector": {} }
             },
@@ -86,7 +86,7 @@ module.exports = {
         "FAQEntry": {
             "name": "FAQEntry",
             "selector": { "type": "CssSelector", "value": "#content article.hrf-entry" },
-            "properties": {
+            "contents": {
                 "question": { "name": "question", "type": "FAQQuestion", "isCollection": false, "selector": {} },
                 "answer": { "name": "answer", "type": "FAQAnswer", "isCollection": false, "selector": {} }
             },
@@ -96,7 +96,7 @@ module.exports = {
         "FAQQuestion": {
             "name": "FAQQuestion",
             "selector": { "type": "CssSelector", "value": "#content h6.hrf-title" },
-            "properties": {
+            "contents": {
             },
             "references": {
             }
@@ -104,7 +104,7 @@ module.exports = {
         "FAQAnswer": {
             "name": "FAQAnswer",
             "selector": { "type": "CssSelector", "value": "#content div.hrf-content" },
-            "properties": {
+            "contents": {
             },
             "references": {
                 "fernUniLinks": { "name": "fernUniLinks", "type": "FernUniInternalLink", "isCollection": true, "selector": {} }
