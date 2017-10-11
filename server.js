@@ -5,7 +5,7 @@ const cookieParser = require("cookie-parser");
 const express = require("express");
 const morgan = require("morgan");
 const logger = require("./lib/Logger");
-const index = require("./routes/index");
+const classifications = require("./routes/classifications");
 const contentClasses = require("./routes/content-classes");
 const referenceClasses = require("./routes/reference-classes");
 const app = express();
@@ -23,7 +23,7 @@ app.use((request, response, next) => {
     });
     next();
 });
-app.use("/", index);
+app.use("/classifications", classifications);
 app.use("/content-classes", contentClasses);
 app.use("/reference-classes", referenceClasses);
 app.use((error, request, response, next) => {
