@@ -3,7 +3,7 @@
 const logger = require("../lib/Logger");
 const express = require('express');
 const router = express.Router();
-const configurationProvider = new (require("../lib/ConfigurationProvider"))("/conf/typing-engine.conf.js");
+const configurationProvider = new (require("../lib/ConfigurationProvider"))("/conf/typing-engine.conf.json");
 
 router.get('/', async (request, response, next) => {
     try {

@@ -1,5 +1,4 @@
-"use strict;"
-module.exports = {
+{
     "pageTypes": {
         "Service": {
             "name": "Service",
@@ -125,4 +124,4 @@ module.exports = {
             "selector": { "type": "CssSelector", "value": "ul#menu-service a" }
         }
     }
-};
+}
