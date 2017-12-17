@@ -7,7 +7,7 @@ const configurationProvider = new (require("../lib/ConfigurationProvider"))("/co
 
 router.get('/', async (request, response, next) => {
     try {
-        const classes = configurationProvider.getConfiguration().referenceTypes;
+        const classes = configurationProvider.getConfiguration().referenceClasses;
         const classesAsArray = Object.keys(classes).map(name => classes[name]);
         response.send({ "total": classesAsArray.length, "classes": classesAsArray });
     } catch (e) {

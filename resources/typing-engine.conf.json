@@ -1,24 +1,24 @@
 {
-    "pageTypes": {
+    "pageClasses": {
         "Service": {
             "name": "Service",
             "selector": { "type": "UrlPatternSelector", "value": "\\\/service\\\/?$" },
             "contents": {
-                "header": { "name": "header", "type": "Header", "isCollection": false, "selector": {} },
-                "portal": { "name": "portal", "type": "Portal", "isCollection": false, "selector": {} },
-                "heading": { "name": "heading", "type": "PageHeading", "isCollection": false, "selector": {} },
-                "subHeading": { "name": "subHeading", "type": "SectionHeading", "isCollection": false, "selector": { "type": "CssSelector", "value": "#content > div.container > div.row > div > h4" } },
-                "introduction": { "name": "introduction", "type": "Text", "isCollection": false, "selector": { "type": "CssSelector", "value": "#content > div.container > div.row > div > div > p" } },
-                "faqSections": { "name": "faqSections", "type": "FAQSection", "isCollection": true, "selector": {} },
-                "closing": { "name": "closing", "type": "Text", "isCollection": false, "selector": { "type": "CssSelector", "value": "#content div.panel-group + p" } }
+                "header": { "name": "header", "class": "Header", "isCollection": false, "selector": {} },
+                "portal": { "name": "portal", "class": "Portal", "isCollection": false, "selector": {} },
+                "heading": { "name": "heading", "class": "PageHeading", "isCollection": false, "selector": {} },
+                "subHeading": { "name": "subHeading", "class": "SectionHeading", "isCollection": false, "selector": { "type": "CssSelector", "value": "#content > div.container > div.row > div > h4" } },
+                "introduction": { "name": "introduction", "class": "Text", "isCollection": false, "selector": { "type": "CssSelector", "value": "#content > div.container > div.row > div > div > p" } },
+                "faqSections": { "name": "faqSections", "class": "FAQSection", "isCollection": true, "selector": {} },
+                "closing": { "name": "closing", "class": "Text", "isCollection": false, "selector": { "type": "CssSelector", "value": "#content div.panel-group + p" } }
             },
             "references": {
-                "servicePages": { "name": "servicePages", "type": "ServicePage", "isCollection": true, "selector": {} },
-                "siteMainPages": { "name": "siteMainPages", "type": "FernUniInternalLink", "isCollection": true, "selector": { "type": "XPathSelector", "value": "\/\/ul[@id=\"menu-mainmenue\"]\/li\/a" } }
+                "servicePages": { "name": "servicePages", "class": "ServicePage", "isCollection": true, "selector": {} },
+                "siteMainPages": { "name": "siteMainPages", "class": "FernUniInternalLink", "isCollection": true, "selector": { "type": "XPathSelector", "value": "\/\/ul[@class=\"nav navbar-nav\"]\/li\/a" } }
             }
         }
     },
-    "contentTypes": {
+    "contentClasses": {
         "PageHeading": {
             "name": "PageHeading",
             "selector": { "type": "CssSelector", "value": "#content h3" },
@@ -41,7 +41,7 @@
             "contents": {
             },
             "references": {
-                "fernUniLinks": { "name": "fernUniLinks", "type": "FernUniInternalLink", "isCollection": true, "selector": {} }
+                "fernUniLinks": { "name": "fernUniLinks", "class": "FernUniInternalLink", "isCollection": true, "selector": {} }
             }
         },
         "Portal": {
@@ -50,14 +50,14 @@
             "contents": {
             },
             "references": {
-                "homepage": { "name": "homepage", "type": "FernUniInternalLink", "isCollection": false, "selector": { "type": "XPathSelector", "value": "." } }
+                "homepage": { "name": "homepage", "class": "FernUniInternalLink", "isCollection": false, "selector": { "type": "XPathSelector", "value": "." } }
             }
         },
         "Header": {
             "name": "Header",
             "selector": { "type": "CssSelector", "value": "header" },
             "contents": {
-                "fernUni": { "name": "fernUni", "type": "Brand", "isCollection": false, "selector": { "type": "XPathSelector", "value": "\/\/a[@class=\"navbar-brand\"]" } }
+                "fernUni": { "name": "fernUni", "class": "Brand", "isCollection": false, "selector": { "type": "XPathSelector", "value": "\/\/a[@class=\"navbar-brand\"]" } }
             },
             "references": {
             }
@@ -68,16 +68,16 @@
             "contents": {
             },
             "references": {
-                "homepage": { "name": "homepage", "type": "FernUniInternalLink", "isCollection": false, "selector": { "type": "XPathSelector", "value": "." } },
-                "logo": { "name": "logo", "type": "Image", "isCollection": false, "selector": { "type": "XPathSelector", "value": ".\/img" } }
+                "homepage": { "name": "homepage", "class": "FernUniInternalLink", "isCollection": false, "selector": { "type": "XPathSelector", "value": "." } },
+                "logo": { "name": "logo", "class": "Image", "isCollection": false, "selector": { "type": "XPathSelector", "value": ".\/img" } }
             }
         },
         "FAQSection": {
             "name": "FAQSection",
             "selector": { "type": "CssSelector", "value": "#content div.panel-group" },
             "contents": {
-                "title": { "name": "title", "type": "SectionHeading", "isCollection": false, "selector": {} },
-                "entries": { "name": "entries", "type": "FAQEntry", "isCollection": true, "selector": {} }
+                "title": { "name": "title", "class": "SectionHeading", "isCollection": false, "selector": {} },
+                "entries": { "name": "entries", "class": "FAQEntry", "isCollection": true, "selector": {} }
             },
             "references": {
             }
@@ -86,8 +86,8 @@
             "name": "FAQEntry",
             "selector": { "type": "CssSelector", "value": "#content article.hrf-entry" },
             "contents": {
-                "question": { "name": "question", "type": "FAQQuestion", "isCollection": false, "selector": {} },
-                "answer": { "name": "answer", "type": "FAQAnswer", "isCollection": false, "selector": {} }
+                "question": { "name": "question", "class": "FAQQuestion", "isCollection": false, "selector": {} },
+                "answer": { "name": "answer", "class": "FAQAnswer", "isCollection": false, "selector": {} }
             },
             "references": {
             }
@@ -106,11 +106,11 @@
             "contents": {
             },
             "references": {
-                "fernUniLinks": { "name": "fernUniLinks", "type": "FernUniInternalLink", "isCollection": true, "selector": {} }
+                "fernUniLinks": { "name": "fernUniLinks", "class": "FernUniInternalLink", "isCollection": true, "selector": {} }
             }
         }
     },
-    "referenceTypes": {
+    "referenceClasses": {
         "Image": {
             "name": "Image",
             "selector": { "type": "CssSelector", "value": "img" }
