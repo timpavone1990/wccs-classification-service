@@ -1,0 +1,52 @@
+{
+    "pageClasses": {
+        "Teachers": {
+            "name": "Teachers",
+            "selector": { "type": "UrlPatternSelector", "value": "\\\/lehrende" },
+            "contents": {
+                "portal": { "name": "portal", "class": "Text", "isCollection": false, "selector": { "type": "XPathSelector", "value": "normalize-space(substring-before(string(\/html\/body\/div\/section\/div\/div\/div\/h3), \"Studienportal\"))" } },
+                "level1Content": { "name": "level1Content", "class": "Level1Content", "isCollection": false, "selector": { "type": "CssSelector", "value": "section#content" } }
+            },
+            "references": {
+                "davinAkko": { "name": "davinAkko", "class": "StupidReference", "isCollection": false, "selector": { "type": "XPathSelector", "value": "string(\/html\/body\/div\/section[2]\/div\/div\/div[2]\/div\/div\/div[2]\/p\/a[2])" } }
+            }
+        }
+    },
+    "contentClasses": {
+        "Level1Content": {
+            "name": "Level1Content",
+            "selector": {},
+            "contents": {
+                "heading": { "name": "heading", "class": "Text", "isCollection": false, "selector": { "type": "XPathSelector", "value": "string(.\/div\/div\/div[2]\/h3)" } },
+                "teamList": { "name": "teamList", "class": "TeamList", "isCollection": true, "selector": { "type": "CssSelector", "value": "div.team-list" } }
+            },
+            "references": {
+                "myReference": { "name": "myReference", "class": "StupidReference", "isCollection": false, "selector": { "type": "XPathSelector", "value": "string(.\/\/aside\/div\/div\/ul\/li[1])" } }
+            }
+        },
+        "TeamList": {
+            "name": "TeamList",
+            "selector": {},
+            "contents": {
+                "name": { "name": "name", "class": "Text", "isCollection": false, "selector": { "type": "XPathSelector", "value": "string(.\/\/div[2]\/div[@class=\"team-member-des\"]\/\/strong)" } }
+            },
+            "references": {
+                "number": { "name": "number", "class": "StupidReference", "isCollection": false, "selector": { "type": "XPathSelector", "value": "substring-before(substring-after(.\/\/div[2]\/div[@class=\"team-member-des\"], \"Tel.: \"), \"\n\")" } }
+            }
+        },
+        "Text": {
+            "name": "Text",
+            "selector": {},
+            "contents": {
+            },
+            "references": {
+            }
+        }
+    },
+    "referenceClasses": {
+        "StupidReference": {
+            "name": "StupidReference",
+            "selector": {}
+        }
+    }
+}

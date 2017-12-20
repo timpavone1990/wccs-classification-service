@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="de-DE"><!--<![endif]--><head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+	
+    <!--[if lt IE 9]>
+		<script src="http://www.fernuni-hagen.de/KSW/portale/babw/wp-content/themes/moderna/js/css3-mediaqueries.js"></script>
+		<script src="http://www.fernuni-hagen.de/KSW/portale/babw/wp-content/themes/moderna/js/html5.js"></script>      
+	<![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>  Lehrende und Betreuende im B.A. Bildungswissenschaft | B.A. Bildungswissenschaft</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://www.fernuni-hagen.de/KSW/portale/babw/xmlrpc.php">
+	<!-- Favicons
+	================================================== -->
+	<link link="" rel="shortcut icon" href="http://www.fernuni-hagen.de/KSW/portale/babw/wp-content/themes/moderna/img/favicon2.ico">
+	
+<!-- wp head -->
+<link rel="dns-prefetch" href="http://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="http://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="B.A. Bildungswissenschaft » Feed" href="http://www.fernuni-hagen.de/KSW/portale/babw/feed/">
+<link rel="alternate" type="application/rss+xml" title="B.A. Bildungswissenschaft » Kommentar-Feed" href="http://www.fernuni-hagen.de/KSW/portale/babw/comments/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.fernuni-hagen.de\/KSW\/portale\/babw\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.1"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b===c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="lehrende_files/wp-emoji-release.js" type="text/javascript" defer="defer"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="fontawesone-admin-style-css" href="lehrende_files/font-awesome_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="fm-jquery-ui-css" href="lehrende_files/jquery-ui-1.css" type="text/css" media="all">
+<link rel="stylesheet" id="fm-jquery-ui-spinner-css" href="lehrende_files/jquery-ui-spinner.css" type="text/css" media="all">
+<link rel="stylesheet" id="form_maker_calendar-jos-css" href="lehrende_files/calendar-jos.css" type="text/css" media="all">
+<link rel="stylesheet" id="phone_field_css-css" href="lehrende_files/intlTelInput.css" type="text/css" media="all">
+<link rel="stylesheet" id="form_maker_frontend-css" href="lehrende_files/form_maker_frontend.css" type="text/css" media="all">
+<link rel="stylesheet" id="style_submissions-css" href="lehrende_files/style_submissions.css" type="text/css" media="all">
+<link rel="stylesheet" id="fm_googlefonts-css" href="lehrende_files/css" type="text/css" media="all">
+<link rel="stylesheet" id="fm-animate-css" href="lehrende_files/fm-animate.css" type="text/css" media="all">
+<link rel="stylesheet" id="fm-font-awesome-css" href="lehrende_files/font-awesome.css" type="text/css" media="all">
+<link rel="stylesheet" id="collapseomatic-css-css" href="lehrende_files/light_style.css" type="text/css" media="all">
+<link rel="stylesheet" id="events-manager-css" href="lehrende_files/events_manager.css" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrap-css" href="lehrende_files/bootstrap.css" type="text/css" media="all">
+<link rel="stylesheet" id="fancybox-css" href="lehrende_files/jquery.css" type="text/css" media="all">
+<link rel="stylesheet" id="flexslider-css" href="lehrende_files/flexslider.css" type="text/css" media="all">
+<link rel="stylesheet" id="style-css" href="lehrende_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="skin-css" href="lehrende_files/default.css" type="text/css" media="all">
+<script type="text/javascript" src="lehrende_files/jquery_006.js"></script>
+<script type="text/javascript" src="lehrende_files/jquery-migrate.js"></script>
+<script type="text/javascript" src="lehrende_files/widget.js"></script>
+<script type="text/javascript" src="lehrende_files/core.js"></script>
+<script type="text/javascript" src="lehrende_files/mouse.js"></script>
+<script type="text/javascript" src="lehrende_files/button.js"></script>
+<script type="text/javascript" src="lehrende_files/datepicker.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Schlie\u00dfen","currentText":"Heute","monthNames":["Januar","Februar","M\u00e4rz","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"],"monthNamesShort":["Jan","Feb","Mrz","Apr","Mai","Jun","Jul","Aug","Sep","Okt","Nov","Dez"],"nextText":"Weiter","prevText":"Vorherige","dayNames":["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"],"dayNamesShort":["So","Mo","Di","Mi","Do","Fr","Sa"],"dayNamesMin":["S","M","D","M","D","F","S"],"dateFormat":"d. MM yy","firstDay":1,"isRTL":false});});
+</script>
+<script type="text/javascript" src="lehrende_files/if_gmap_front_end.js"></script>
+<script type="text/javascript" src="lehrende_files/intlTelInput.js"></script>
+<script type="text/javascript" src="lehrende_files/file-upload.js"></script>
+<script type="text/javascript" src="lehrende_files/calendar.js"></script>
+<script type="text/javascript" src="lehrende_files/calendar_function.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var fm_objectL10n = {"plugin_url":"http:\/\/www.fernuni-hagen.de\/KSW\/portale\/babw\/wp-content\/plugins\/form-maker","fm_file_type_error":"Kann diese Art von Datei nicht hochladen","fm_field_is_required":"Feld ist erforderlich","fm_min_max_check_1":"Das","fm_min_max_check_2":"Wert muss zwischen sein","fm_spinner_check":"Wert muss zwischen sein"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="lehrende_files/main_div_front_end.js"></script>
+<script type="text/javascript" src="lehrende_files/hrf-script.js"></script>
+<script type="text/javascript" src="lehrende_files/position.js"></script>
+<script type="text/javascript" src="lehrende_files/sortable.js"></script>
+<script type="text/javascript" src="lehrende_files/menu.js"></script>
+<script type="text/javascript" src="lehrende_files/wp-a11y.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"Es wurden keine Ergebnisse gefunden, die deinen Suchkriterien entsprechen.","oneResult":"1 Ergebnis gefunden. Benutze die Pfeiltasten zum Navigieren.","manyResults":"%d Ergebnisse gefunden. Benutze die Pfeiltasten zum Navigieren.","itemSelected":"Eintrag ausgew\u00e4hlt."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="lehrende_files/autocomplete.js"></script>
+<script type="text/javascript" src="lehrende_files/resizable.js"></script>
+<script type="text/javascript" src="lehrende_files/draggable.js"></script>
+<script type="text/javascript" src="lehrende_files/dialog.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var EM = {"ajaxurl":"http:\/\/www.fernuni-hagen.de\/KSW\/portale\/babw\/wp-admin\/admin-ajax.php","locationajaxurl":"http:\/\/www.fernuni-hagen.de\/KSW\/portale\/babw\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"de","dateFormat":"dd.mm.yy","ui_css":"http:\/\/www.fernuni-hagen.de\/KSW\/portale\/babw\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"1","is_ssl":"","bookingInProgress":"Bitte warte, w\u00e4hrend die Buchung abgeschickt wird.","tickets_save":"Ticket speichern","bookingajaxurl":"http:\/\/www.fernuni-hagen.de\/KSW\/portale\/babw\/wp-admin\/admin-ajax.php","bookings_export_save":"Buchungen exportieren","bookings_settings_save":"Einstellungen speichern","booking_delete":"Bist du dir sicher, dass du es l\u00f6schen m\u00f6chtest?","booking_offset":"30","bb_full":"Ausverkauft","bb_book":"Jetzt buchen","bb_booking":"Buche ...","bb_booked":"Buchung Abgesendet","bb_error":"Buchung Fehler. Nochmal versuchen?","bb_cancel":"Stornieren","bb_canceling":"Stornieren...","bb_cancelled":"Abgesagt","bb_cancel_error":"Stornierung Fehler. Nochmal versuchen?","txt_search":"Suche","txt_searching":"Suche...","txt_loading":"Lade...","event_detach_warning":"Bist du sicher, dass du diese sich wiederholende Veranstaltung herausl\u00f6sen willst? Wenn du dies tun, verlierst du alle Buchungsinformationen und die alten wiederkehrenden Veranstaltung werden gel\u00f6scht.","delete_recurrence_warning":"Bist du sicher, dass du alle Wiederholungen dieser Veranstaltung l\u00f6schen willst? Alle Veranstaltungen werden in den Papierkorb verschoben.","disable_bookings_warning":"Bist du sicher, dass du Buchungen deaktivieren willst? Wenn du das tust und speicherst, wirst du alle bisherigen Buchungen verlieren. Wenn du nur weitere Buchungen verhindern willst, reduziere die Anzahl der verf\u00fcgbaren Pl\u00e4tze auf die Anzahl der bisherigen Buchungen.","booking_warning_cancel":"Bist du sicher, dass du deine Buchung stornieren willst?"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="lehrende_files/events-manager.js"></script>
+<link rel="https://api.w.org/" href="http://www.fernuni-hagen.de/KSW/portale/babw/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.fernuni-hagen.de/KSW/portale/babw/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.fernuni-hagen.de/KSW/portale/babw/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.8.1">
+<link rel="canonical" href="http://www.fernuni-hagen.de/KSW/portale/babw/einstieg/lehrende-und-betreuende-im-b-a-bildungswissenschaft/">
+<link rel="shortlink" href="http://www.fernuni-hagen.de/KSW/portale/babw/?p=1397">
+<link rel="alternate" type="application/json+oembed" href="http://www.fernuni-hagen.de/KSW/portale/babw/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.fernuni-hagen.de%2FKSW%2Fportale%2Fbabw%2Feinstieg%2Flehrende-und-betreuende-im-b-a-bildungswissenschaft%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://www.fernuni-hagen.de/KSW/portale/babw/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.fernuni-hagen.de%2FKSW%2Fportale%2Fbabw%2Feinstieg%2Flehrende-und-betreuende-im-b-a-bildungswissenschaft%2F&amp;format=xml">
+<style type="text/css" media="screen"></style><link href="lehrende_files/css_002" rel="stylesheet" type="text/css"><style type="text/css">
+.pricing-box-alt .pricing-terms  h6,.post-quote blockquote,blockquote,.pullquote-left,.pullquote-right{font-family:Open Sans;}</style>
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<link id="template-colors" href="lehrende_files/yellow.css" rel="stylesheet">
+</head>
+<body class="page-template page-template-einstiegunter page-template-einstiegunter-php page page-id-1397 page-child parent-pageid-13 body">
+		
+<div id="wrapper">
+	<!-- start header -->
+	<header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+					
+										
+								<a class="navbar-brand" href="http://www.fernuni-hagen.de/"><img src="lehrende_files/feulogo.png" alt="FernUni Logo"></a>
+								
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul id="menu-mainmenue" class="nav navbar-nav"><li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-24"><a title="EINSTIEG: Schaukasten, Studienziele und Berufsfelder, Aufbau des Studiengangs, Lehre und Betreuung, Zugangsvoraussetzungen, Anerkennung bereits erbrachter Studien- und Prüfungsleistungen, Kosten, Einschreibung" href="http://www.fernuni-hagen.de/KSW/portale/babw/einstieg/"><span class="glyphicon EINSTIEG: Schaukasten, Studienziele und Berufsfelder, Aufbau des Studiengangs, Lehre und Betreuung, Zugangsvoraussetzungen, Anerkennung bereits erbrachter Studien- und Prüfungsleistungen, Kosten, Einschreibung"></span>&nbsp;Einstieg</a></li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a title="STUDIUM: Modulinformationen, Präsenz- und Onlineseminare, Praktikum, Virtueller Auslandsaufenthalt" href="http://www.fernuni-hagen.de/KSW/portale/babw/studium/"><span class="glyphicon STUDIUM: Modulinformationen, Präsenz- und Onlineseminare, Praktikum, Virtueller Auslandsaufenthalt"></span>&nbsp;Studium</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a title="PRÜFUNGEN: Prüfungsanmeldung und Notenbescheid, Prüfungsformen, Abschlussarbeit und -zeugnis, Vertrauensschutz, Nachteilsausgleich und weitere Sonderregelungen" href="http://www.fernuni-hagen.de/KSW/portale/babw/pruefungen/"><span class="glyphicon PRÜFUNGEN: Prüfungsanmeldung und Notenbescheid, Prüfungsformen, Abschlussarbeit und -zeugnis, Vertrauensschutz, Nachteilsausgleich und weitere Sonderregelungen"></span>&nbsp;Prüfungen</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a title="SERVICE: F.A.Q.s, Kontakt, Aktuelles, Downloads, Online-Systeme, Vom Bachelor zum Master" href="http://www.fernuni-hagen.de/KSW/portale/babw/service/"><span class="glyphicon SERVICE: F.A.Q.s, Kontakt, Aktuelles, Downloads, Online-Systeme, Vom Bachelor zum Master"></span>&nbsp;Service</a></li>
+<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a title="Sitemap" href="http://www.fernuni-hagen.de/KSW/portale/babw/sitemap/"><span class="glyphicon Sitemap"></span>&nbsp;<i class="fa fa-sitemap"></i></a></li>
+</ul>	
+                </div>
+            </div>
+        </div>
+	</header>
+	<!-- end header -->
+    <!-- PAGE TITLE -->
+<section id="inner-headline">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+                                <h3><a class="content" href="http://www.fernuni-hagen.de/KSW/portale/babw/">B.A. Bildungswissenschaft</a> <small><br>
+
+
+
+                                    <font color="#c84f0e"><strong>Studienportal</strong></font> </small></h3>
+					<ul class="breadcrumb"><li><a class="brotkruemel" href="http://www.fernuni-hagen.de/" title="FernUni Homepage"><i class="fa fa-home"></i></a></li><li><a class="brotkruemel" href="http://www.fernuni-hagen.de/KSW/" title="Fakultät KSW Homepage">KSW</a></li><li><a class="brotkruemel" href="http://www.fernuni-hagen.de/KSW/angebot/portale.shtml" title="KSW Studienportale">Portale</a></li><li><a href="http://www.fernuni-hagen.de/KSW/portale/babw">B.A. Bildungswissenschaft</a></li><li><a href="http://www.fernuni-hagen.de/KSW/portale/babw/einstieg/">Einstieg</a></li><li>Lehrende und Betreuende im B.A. Bildungswissenschaft</li></ul>				</div>
+			</div>	
+		</div>
+</section>	
+<!--[if lt IE 9]>
+		<p><i>Sie verwenden einen veralteten Browser, bitte <a href="http://windows.microsoft.com/de-de/internet-explorer/download-ie" target="_blank">aktualisieren</a>!<br>Diese Seiten werden nicht richtig dargestellt. </i></p>
+		<![endif]-->
+        
+
+<section id="content">
+	<div class="container">
+		<div class="row">
+<div class="hidden-sm hidden-xs">
+			<div class="col-md-3">   
+	<aside class="left-sidebar">
+    <div id="nav_menu-3"><br><!--Einstieg--><div class="menu-einstieg-container"><ul id="menu-einstieg" class="menu"><li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a href="http://www.fernuni-hagen.de/KSW/portale/babw/einstieg/schaukasten/">Schaukasten</a></li>
+<li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a href="http://www.fernuni-hagen.de/KSW/portale/babw/einstieg/studienziele-und-berufsfelder/">Studienziele und Berufsfelder</a></li>
+<li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="http://www.fernuni-hagen.de/KSW/portale/babw/einstieg/aufbau-des-studiengangs/">Aufbau des Studiengangs</a></li>
+<li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"><a href="http://www.fernuni-hagen.de/KSW/portale/babw/einstieg/lehre-und-betreuung/">Lehre und Betreuung</a></li>
+<li id="menu-item-583" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-583"><a href="http://www.fernuni-hagen.de/KSW/portale/babw/einstieg/zugangsvoraussetzungen/">Zugangsvoraussetzungen</a></li>
+<li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="http://www.fernuni-hagen.de/KSW/portale/babw/einstieg/anerkennung-bereits-erbrachter-studien-und-pruefungsleistungen/">Anerkennung bereits erbrachter Prüfungsleistungen</a></li>
+<li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="http://www.fernuni-hagen.de/KSW/portale/babw/einstieg/kosten/">Kosten</a></li>
+<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="http://www.fernuni-hagen.de/KSW/portale/babw/einstieg/einschreibung/">Einschreibung, Rückmeldung und Belegung</a></li>
+</ul></div></div>	
+	</aside>
+</div>
+	 </div>
+		<div class="col-md-9">
+
+				
+            <h3>Lehrende und Betreuende im B.A. Bildungswissenschaft</h3>
+			<p>Hier finden Sie eine alphabetische Liste mit allen Lehrenden und 
+Betreuenden. Eine modulspezifische Darstellung finden Sie unter <a href="http://www.fernuni-hagen.de/KSW/portale/babw/studium/">Studium</a> beim jeweiligen Modul.</p>
+<div class="team-list"><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/davin_akko_sw_klein2.jpg" title="Akko" width="75">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/emp_bildungsforschung/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Empirische Bildungsforschung</a> <br>
+ <strong>Davin Akko</strong><br>
+ E-Mail: <a href="mailto:davin.akko@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">davin.akko</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/theo-bastiaens.jpeg" title="Bastiaens" width="264">
+    </div><div class="team-member-des">
+    <p><a class="external-link" href="http://www.fernuni-hagen.de/KSW/portale/ifbm/mediendidaktik/" target="_blank" rel="noopener" data-slimstat-type="0" data-slimstat-callback="false" data-slimstat-tracking="true">Lehrgebiet Mediendidaktik</a> <br>
+ <strong>Prof. Dr.&nbsp;Theo Bastiaens</strong><br>
+ Tel.: +49 (0)2331 987-2795<br>
+ email:<a class="external-link" href="mailto:theo.bastiaens@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">theo.bastiaens</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/Olaf_Bittner.jpg" title="Bittner, Olaf" width="448">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/soziologie/lg2/">LG Soziologie II / Soziologische Gegenwartsdiagnosen</a><br>
+ <strong>Dr. Olaf Bittner</strong><br>
+ Tel.: +49 (0)2331 987 4745<br>
+ email:<a href="mailto:olaf.bittner@fernuni-hagen.de">olaf.bittner</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/Klaudia_Foto_1.jpg" title="Bovermann" width="450">
+    </div><div class="team-member-des">
+    <p><a class="external-link" href="http://www.fernuni-hagen.de/KSW/portale/ifbm/mediendidaktik/" target="_blank" rel="noopener" data-slimstat-type="0" data-slimstat-callback="false" data-slimstat-tracking="true">Lehrgebiet Mediendidaktik</a> <br>
+ <strong>Klaudia&nbsp;Bovermann</strong><br>
+ Tel.: +49 (0)2331 987-2812<br>
+ email:<a class="external-link" href="mailto:klaudia.bovermann@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Klaudia.Bovermann</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/Denise-bueckner.jpeg" title="Brückner" width="103">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/lebenslanges_lernen/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Lebenslanges Lernen</a> <br>
+ <strong>Denise Brückner</strong><br>
+ Tel.: <span class="skype_c2c_print_container notranslate">+49 (0)2331 987 2739</span><br>
+ E-Mail: <a href="mailto:Denise.Brueckner@FernUni-Hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">denise.brückner</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/natascha-compes.jpeg" title="Compes" width="92">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_differenz/">LG Bildung und Differenz</a><br>
+ <b>Natascha Compes</b><br>
+ Tel.: +49 (0)2331 987 2175<br>
+ email: <a class="mailto" href="mailto:natascha.compes@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">natatscha.compes</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/diegel.jpg" title="Diegel" width="160">
+    </div><div class="team-member-des">
+    <p style="text-align: left;"><a class="external-link" href="http://www.fernuni-hagen.de/KSW/portale/ifbm/mediendidaktik/" target="_blank" rel="noopener" data-slimstat-type="0" data-slimstat-callback="false" data-slimstat-tracking="true">Lehrgebiet Mediendidaktik</a> <br>
+ <strong>Noëlle Diegel<br>
+</strong>Tel.: +49 (0) 2331 987-2865<br>
+E-Mail:<a href="mailto:noelle.diegel@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">noelle.diegel</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/image_preview_003.jpg" title="Elsholz" width="103">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/lebenslanges_lernen/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Lebenslanges Lernen</a><br>
+ <strong>Prof. Dr.&nbsp;Uwe Elsholz</strong><br>
+ Tel.: +49 (0)2331 987&nbsp;2747<br>
+ email: <a href="mailto:uwe.elsholz@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">uwe.elsholz</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/image_preview_002.jpg" title="Fazlali Serkani" width="300">
+    </div><div class="team-member-des">
+    <p><a class="external-link" href="http://www.fernuni-hagen.de/KSW/portale/ifbm/mediendidaktik/" target="_blank" rel="noopener" data-slimstat-type="0" data-slimstat-callback="false" data-slimstat-tracking="true">Lehrgebiet Mediendidaktik</a> <br>
+ <strong>Sepiedeh Fazlali Serkani</strong><br>
+ Tel.: <span class="skype_c2c_print_container notranslate">+49 (0)2331 987-2865</span><br>
+ E-Mail: <a href="mailto:sepiedeh.fazlali@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">sepiedeh.fazlali</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/jessica-felgentreu.jpg" title="Felgentreu" width="100">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_medien/" data-slimstat-tracking="true" data-slimstat-callback="true" data-slimstat-type="0">LG Bildungstheorie und Medienpädagogik</a><br>
+ <strong>Jessica Felgentreu</strong><br>
+ E-Mail: <span class="link-mailto"><a href="mailto:jessica.felgentreu@fernuni-hagen.de">Jessica.Felgentreu<br>
+ </a></span>Tel.: +49 (0)2331 987 2970</p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/claudia-gruener.jpg" title="Grüner" width="100">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_medien/" data-slimstat-tracking="true" data-slimstat-callback="true" data-slimstat-type="0">LG Bildungstheorie und Medienpädagogik</a><br>
+ <strong> Claudia Grüner</strong><br>
+ E-Mail: <span class="link-mailto"><a href="mailto:claudia.gruener@fernuni-hagen.de">Claudia.Gruener<br>
+ </a></span>Tel.: +49 (0)2331 987 4492</p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/image_preview.jpg" title="Grunert" width="250">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/allgemeine_biwi/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">Lehrgebiet&nbsp;Allgemeine Bildungswissenschaft</a><br>
+ <strong>Prof. Dr. Cathleen Grunert</strong><br>
+ Tel.: +49 (0)2331 987 2655<br>
+ Fax: +49 (0)2331 987 2145<br>
+ email: <a href="mailto:cathleen.grunert@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Cathleen.Grunert</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/habla.jpg" title="Habla" width="160">
+    </div><div class="team-member-des">
+    <p><a class="external-link" href="http://www.fernuni-hagen.de/KSW/portale/ifbm/mediendidaktik/" target="_blank" rel="noopener" data-slimstat-type="0" data-slimstat-callback="false" data-slimstat-tracking="true">Lehrgebiet Mediendidaktik</a> <br>
+ <strong>Sebastian Habla</strong><br>
+ Tel.: <span class="skype_c2c_print_container notranslate">+49 (0)2331 987-</span>4468<br>
+ E-Mail: <a href="mailto:sebastian.habla@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">sebastian.habla</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/tanja-hilger.jpg" title="Hilger" width="103">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/lebenslanges_lernen/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">Lehrgebiet Lebenslanges Lernen</a><br>
+ <strong>Tanja Hilger</strong><br>
+ Tel.: +49 (0)2331 987&nbsp;2727<br>
+ email: <a href="mailto:tanja.hilger@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Tanja.Hilger</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/nora-hoffmann.jpg" title="Hoffmann" width="220">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/allgemeine_biwi/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">Lehrgebiet&nbsp;Allgemeine Bildungswissenschaft</a><br>
+ <strong>Dr. Nora Hoffmann</strong><br>
+ Tel.: +49 (0)2331 987 2703<br>
+ email: <a href="mailto:nora.hoffmann@fernuni-hagen.de">Nora.Hoffmann</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/jasper-moeller.jpeg" title="Jasper-Möller" width="602">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/soziologie/lg2/">LG Soziologie II / Soziologische Gegenwartsdiagnosen</a><br>
+ <strong>Fabian Jasper-Möller</strong><br>
+ Tel.: +49 (0)2331 987 4745<br>
+ email:<a href="mailto:Fabian.Jasper-Moeller@fernuni-hagen.de">Fabian.Jasper-Moeller</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/thorsten-junge.jpg" title="Junge" width="100">
+    </div><div class="team-member-des">
+    <p>RWTH Aachen<br>
+ Allgemeine Didaktik mit dem Schwerpunkt Technik- und Medienbildung<br>
+ <strong>Dr. Thorsten Junge</strong><br>
+ E-Mail: <a href="mailto:thorsten.olaf.junge@rwth-aachen.de">thorsten.olaf.junge@rwth-aachen.de<br>
+ </a>Tel.: +49 241 80 93568</p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/heike-karolyi.jpg" title="Karolyi" width="100">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_medien/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Bildungstheorie und Medienpädagogik </a><br>
+ <strong>Heike Karolyi</strong><br>
+ Tel.: +49 (0)2331 987 4489<br>
+ E-Mail: <a class="external-link" href="mailto:heike.karolyi@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Heike.Karolyi</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/170405_kleist_klein_hoch.jpg" title="Kleist" width="756">
+    </div><div class="team-member-des">
+    <p><a class="external-link" href="http://www.fernuni-hagen.de/KSW/portale/ifbm/mediendidaktik/" target="_blank" rel="noopener" data-slimstat-type="0" data-slimstat-callback="false" data-slimstat-tracking="true">Lehrgebiet Mediendidaktik</a> <br>
+ <strong>Andrea Kleist</strong><br>
+ Tel.: +49 (0)2331 987-2812<br>
+ email: <a href="mailto:andrea.kleist@fernuni-hagen.de">andrea.kleist</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/veronika-kopf.jpg" title="Kopf" width="100">
+    </div><div class="team-member-des">
+    <p><strong>Veronika Kopf</strong><br>
+ E-Mail: <a href="mailto:veronika.kopf@fernuni-hagen.de">veronika.kopf@fernuni-hagen.de </a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/kurrat.jpg" title="Kurrat" width="75">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/emp_bildungsforschung/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Empirische Bildungsforschung</a> <br>
+ <strong>Dr. Christian Kurrat</strong><br>
+ Tel.: <span class="skype_c2c_print_container notranslate">+49 (0)2331 987-2393</span><br>
+ E-Mail: <a href="mailto:christian.kurrat@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">christian.kurrat</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/christian-leineweber.jpg" title="Leineweber" width="100">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_medien/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Bildungstheorie und Medienpädagogik </a><br>
+ <strong>Christian Leineweber</strong><br>
+ Tel.: <span class="skype_c2c_print_container notranslate">+49 (0)2331 987 4966</span><br>
+ E-Mail: <a href="mailto:christian.leineweber@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Christian.Leineweber</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/image_preview-2.jpg" title="Ludwig" width="302">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/allgemeine_biwi/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">Lehrgebiet&nbsp;Allgemeine Bildungswissenschaft</a><br>
+ <strong>Katja Ludwig</strong><br>
+ Tel.: +49 (0)2331 987&nbsp;2133<br>
+ email: <a href="mailto:katja.ludwig@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Katja.Ludwig</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/allgbiwi_anneke-bruning.jpeg" title="Moeller" width="220">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/allgemeine_biwi/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">Lehrgebiet&nbsp;Allgemeine Bildungswissenschaft</a><br>
+ <strong>Anneke Möller</strong> (geb. Bruning)<br>
+ Tel.: +49 (0)2331 987 2703<br>
+ E-Mail: <span class="link-mailto"><a href="mailto:Anneke.Bruning@fernuni-hagen.de">Anneke.Bruning</a></span><br>
+ Raum B 2.028</p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/ariane-neu.jpeg" title="Neu" width="103">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/lebenslanges_lernen/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Lebenslanges Lernen</a> <br>
+ <strong>Ariane Neu</strong><br>
+ Tel.: +49 (0)2331 987 4049<br>
+ E-Mail: <a href="mailto:Ariane.Neu@FernUni-Hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">ariane.neu</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/patrycja-psyk.jpg" title="Psyk" width="100">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_medien/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Bildungstheorie und Medienpädagogik</a><br>
+ <strong> Patrycja Psyk</strong><br>
+ E-Mail: <span class="link-mailto"><a href="mailto:patrycja.psyk@fernuni-hagen.de">Patrycja.Psyk</a></span><br>
+ Tel.: +49 (0)2331 987 4492</p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/rosenkranz.jpg" title="Rosenkranz" width="473">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/emp_bildungsforschung/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Empirische Bildungsforschung</a> <br>
+ <strong>Dr. Lena Rosenkranz</strong><br>
+ E-Mail: <a href="mailto:lena.rosenkranz@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">lena.rosenkranz</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/renate-schramek.jpeg" title="Schramek" width="103">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/lebenslanges_lernen/">LG Lebenslanges Lernen</a> <br>
+ <strong>Dr. Renate Schramek</strong><br>
+ Tel.: <span class="skype_c2c_print_container notranslate">+49 (0)2331 987 2752</span><br>
+ E-Mail: <a href="mailto:Renate.Schramek@FernUni-Hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">renate.schramek</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/schuetz.jpg" title="Schuetz" width="647">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/emp_bildungsforschung/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Empirische Bildungsforschung</a><br>
+ <strong>Prof.</strong> <strong>Dr. Julia Schütz</strong><br>
+ Tel.: +49 (0)2331 987&nbsp;4691<br>
+ email: <a href="mailto:julia.schuetz@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">julia.schuetz</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/christine-schulmann.jpeg" title="Schulmann" width="160">
+    </div><div class="team-member-des">
+    <p style="text-align: left;"><a class="external-link" href="http://www.fernuni-hagen.de/KSW/portale/ifbm/mediendidaktik/" target="_blank" rel="noopener" data-slimstat-type="0" data-slimstat-callback="false" data-slimstat-tracking="true">Lehrgebiet Mediendidaktik</a> <br>
+ <strong>Christine Schulmann</strong><br>
+E-Mail:<a href="mailto:christine.schulmann@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Christine.Schulmann</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/janine-stoeck.jpg" title="Stoeck" width="220">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/allgemeine_biwi/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">Lehrgebiet&nbsp;Allgemeine Bildungswissenschaft</a><br>
+ <strong>Janine Stoeck</strong><br>
+ Tel.: +49 (0)2331 987 2133<br>
+ E-Mail: <a href="mailto:janine.stoeck@fernuni-hagen.de">Janine.Stoeck</a><br>
+ Raum B 2.026</p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/cornelia-trump.jpg" title="Trump" width="100">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_medien/" data-slimstat-tracking="true" data-slimstat-callback="true" data-slimstat-type="0">LG Bildungstheorie und Medienpädagogik</a><br>
+ <strong> Cornelia Trump</strong><br>
+ E-Mail: <span class="link-mailto"><a href="mailto:cornelia.trump@fernuni-hagen.de">cornelia.trump<br>
+ </a></span>Tel.: +49 (0)2331 987 4499</p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/cathrin-vogel.jpeg" title="Vogel" width="268">
+    </div><div class="team-member-des">
+    <p><a class="external-link" href="http://www.fernuni-hagen.de/KSW/portale/ifbm/mediendidaktik/" target="_blank" rel="noopener" data-slimstat-type="0" data-slimstat-callback="false" data-slimstat-tracking="true">Lehrgebiet Mediendidaktik</a> <br>
+ <strong>Cathrin Vogel</strong><br>
+ Tel.: <span class="skype_c2c_print_container notranslate">+49 (0)2331 987-2486</span><br>
+ E-Mail: <a href="mailto:cathrin.vogel@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">cathrin.vogel</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/vormbusch.jpg" title="Vormbusch" width="75">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/soziologie/lg2/" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">LG Soziologie II / Soziologische Gegenwartsdiagnosen</a><br>
+ <strong>Prof. Dr.&nbsp;Uwe Vormbusch</strong><br>
+ Tel.: 02331/987-4741<br>
+ email: <a class="mailto" href="mailto:uwe.vormbusch@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">uwe.vormbusch</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/Walgenbach_klein_SW.jpg" title="Walgenbach" width="101">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_differenz/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Bildung und Differenz</a><br>
+ <strong>Prof. Dr.&nbsp;Katharina Walgenbach</strong><br>
+ Tel.: +49 (0)2331 987 2751<br>
+ email: <a href="mailto:Katharina.Walgenbach@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Katharina.Walgenbach</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/C_Watson_2016_klein.jpg" title="Watson" width="75">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/emp_bildungsforschung/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Empirische Bildungsforschung</a> <br>
+ <strong>Dr. Christina Watson</strong><br>
+ E-Mail: <a href="mailto:christina.watson@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">christina.watson</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/petra-wiemer_1.jpg" title="Wiemer" width="103">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/lebenslanges_lernen/">LG Lebenslanges Lernen</a> <br>
+ <strong>Petra Wiemer</strong><br>
+ Tel.: +49 (0)2331 987&nbsp;2743<br>
+ E-Mail:<a class="external-link" href="mailto:petra.wiemer@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Petra.Wiemer</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/Wild.png" title="Wild" width="216">
+    </div><div class="team-member-des">
+    <p><a class="extern" href="http://www.fernuni-hagen.de/KSW/portale/ifbm/lebenslanges_lernen/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Lebenslanges Lernen</a> <br>
+ <strong>Dr.</strong> <strong>Rüdiger Wild</strong><br>
+ Tel.: <span class="skype_c2c_print_container notranslate">+49 (0)2331 987-4338</span><br>
+ E-Mail:&nbsp;<a class="mailto" href="mailto:ruediger.wild@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">ruediger.wild</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/susanne-winnerling.jpeg" title="Winnerling" width="138">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_differenz/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Bildung und Differenz</a><br>
+ <b>Dr. Susanne Winnerling</b><br>
+ Tel.: +49 (0)2331 987 2756<br>
+ email: <a class="mailto" href="mailto:susanne.winnerling@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">susanne.winnerling</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/claudia-de-witt.png" title="Witt de" width="100">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_medien/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Bildungstheorie und Medienpädagogik </a><br>
+ <strong>Prof. Dr. Claudia de Witt<br>
+</strong>E-Mail: <strong><a href="mailto:Claudia.deWitt@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Claudia.deWitt</a></strong><br>
+ Tel.: +49 (0)2331 987 4490/91</p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/maik-wunder.jpeg" title="Wunder" width="92">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_differenz/">LG Bildung und Differenz</a><br>
+ <b>Maik Wunder</b><br>
+ Tel.: +49 (0)2331 987 2187<br>
+ email: <a class="mailto" href="mailto:maik.wunder@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">maik.wunder</a></p>
+
+    </div>
+    </div></div>
+<h5>Wissenschaftliche Online-Tutorinnen und Tutoren</h5>
+<div class="team-list"><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/Foto-Christoph-Baumann-1.jpg" title="Baumann" width="304">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_differenz/">LG Bildung und Differenz</a> <br>
+ <strong>Christoph Baumann</strong><br>
+ email: <span class="link-mailto"><a href="mailto:Christoph.Baumann@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Christoph Baumann</a></span></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/christine-betting.jpeg" title="Betting" width="103">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/lebenslanges_lernen/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Lebenslanges Lernen</a><br>
+ <strong>Christine Betting</strong><br>
+ email: <a class="external-link" href="mailto:Christine.Betting@FernUni-Hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Christine.Betting</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/ulrike-breuer.jpg" title="Breuer" width="100">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_medien/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Bildungstheorie und Medienpädagogik</a><br>
+ <strong>Ulrike Breuer</strong> <br>
+ E-Mail: <span class="link-mailto"><a class="external-link" href="mailto:ulrike.breuer@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Ulrike.Breuer</a></span></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/Bettina-hein.jpeg" title="Hein" width="281">
+    </div><div class="team-member-des">
+    <p><a class="external-link" href="http://www.fernuni-hagen.de/KSW/portale/ifbm/mediendidaktik/" target="_blank" rel="noopener" data-slimstat-type="0" data-slimstat-callback="false" data-slimstat-tracking="true">Lehrgebiet Mediendidaktik</a> <br>
+ <strong>Bettina Hein</strong><br>
+ Tel.: <span class="skype_c2c_print_container notranslate">+49 (0)2331 987-2812</span><br>
+ E-Mail: <a href="mailto:bettina.hein@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">bettina.hein</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/nicole-jablonowski.jpg" title="Jablonowski" width="827">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_medien/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Bildungstheorie und Medienpädagogik</a><br>
+ <strong>Nicole Jablonowski</strong><br>
+ E-Mail: <span class="link-mailto"><a class="external-link" href="mailto:nicole.jablonowski@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Nicole.Jablonowski</a></span></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/Martina-terjung.jpeg" title="Jung ter" width="91">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_differenz/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Bildung und Differenz</a> <br>
+ <strong>Martina ter Jung</strong><br>
+ email: <span class="link-mailto"><a href="mailto:Martina.terJung@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Martina.terJung</a></span></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/sabine-kober.jpg" title="Kober" width="100">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_medien/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Bildungstheorie und Medienpädagogik</a><br>
+ <strong>Sabine Kober</strong><br>
+ E-Mail: <span class="link-mailto"><a class="external-link" href="mailto:sabine.kober@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Sabine.Kober</a></span></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/roth-vormann.jpg" title="Roth-Vormann" width="92">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_differenz/">LG Bildung und Differenz</a><br>
+ <strong>Manuela Roth-Vormann</strong><br>
+ email: <a href="mailto:manuela.roth-vormann@FernUni-Hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">manuela.roth-vormann</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/florentina-sauerbach.jpeg" title="Sauerbach" width="160">
+    </div><div class="team-member-des">
+    <p><a class="external-link" href="http://www.fernuni-hagen.de/KSW/portale/ifbm/mediendidaktik/" target="_blank" rel="noopener" data-slimstat-type="0" data-slimstat-callback="false" data-slimstat-tracking="true">Lehrgebiet Mediendidaktik</a> <br>
+ <strong>Florentina Sauerbach</strong><br>
+ email:<a class="external-link" href="mailto:florentina.sauerbach@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">florentina.sauerbach</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/Sebastian_Schneider.jpg" title="Schneider" width="101">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_differenz/">LG Bildung und Differenz</a><br>
+ <strong>Sebastian Schneider</strong><br>
+ email: <a href="mailto:sebastian.schneider@FernUni-Hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">sebastian.schneider</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/stoeber.jpg" title="Stöber" width="75">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/emp_bildungsforschung/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Empirische Bildungsforschung</a> <br>
+ <strong>Reinhard Stöber</strong><br>
+ Tel.: +49 (0)2331 987&nbsp;2986<br>
+ email: <a class="mailto" href="mailto:reinhard.stoeber@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Reinhard.Stöber</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/martina-thomas.png" title="Thomas" width="103">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/lebenslanges_lernen/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Lebenslanges Lernen</a><br>
+ <strong>Martina Thomas<br>
+ </strong>Tel.: +49 2331 987 – 2744<br>
+ email: <a href="mailto:Martina.Thomas@FernUni-Hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Martina.Thomas</a></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/sandra-vaupel.jpg" title="Vaupel" width="100">
+    </div><div class="team-member-des">
+    <p><a href="http://www.fernuni-hagen.de/KSW/portale/ifbm/bildung_medien/" data-slimstat-type="0" data-slimstat-callback="true" data-slimstat-tracking="true">LG Bildungstheorie und Medienpädagogik</a><br>
+ <strong>Sandra Vaupel</strong><br>
+ email: <span class="link-mailto"><a class="external-link" href="mailto:sandra.vaupel@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">Sandra.Vaupel</a></span></p>
+
+    </div>
+    </div><div class="grid">
+    <div class="team-member-info">
+    <img class="team-picture rounded" src="lehrende_files/rafala-wingen.jpeg" title="Wingen" width="266">
+    </div><div class="team-member-des">
+    <p><a class="external-link" href="http://www.fernuni-hagen.de/KSW/portale/ifbm/mediendidaktik/" target="_blank" rel="noopener" data-slimstat-type="0" data-slimstat-callback="false" data-slimstat-tracking="true">Lehrgebiet Mediendidaktik</a> <br>
+ <strong>Dr. Rafaela Wingen</strong><br>
+ Tel.: +49 (0)2331 987-2355<br>
+ email:<a class="external-link" href="mailto:rafaela.wingen@fernuni-hagen.de" data-slimstat-type="2" data-slimstat-callback="true" data-slimstat-tracking="false">rafaela.wingen</a></p>
+
+    </div>
+    </div></div>
+						
+						<div class="margintop30"></div>
+					
+		</div>
+			</div>
+	</div>
+
+</section>   
+<!-- FOOTER -->
+	<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="widget widget_search"><h4 class="widgetheading">Suchen</h4><form class="form-search" action="http://www.fernuni-hagen.de/KSW/portale/babw">
+		<input name="s" id="s" placeholder="" class="form-control" type="text">		
+</form>
+
+</div><div class="widget widget_em_calendar"><h4 class="widgetheading">Veranstaltungen</h4><div id="em-calendar-159" class="em-calendar-wrapper"><table class="em-calendar">
+	<thead>
+		<tr>
+			<td><a class="em-calnav em-calnav-prev" href="http://www.fernuni-hagen.de/KSW/portale/babw/einstieg/lehrende-und-betreuende-im-b-a-bildungswissenschaft/?ajaxCalendar=1&amp;mo=11&amp;yr=2017" rel="nofollow">&lt;&lt;</a></td>
+			<td class="month_name" colspan="5">Dez 2017</td>
+			<td><a class="em-calnav em-calnav-next" href="http://www.fernuni-hagen.de/KSW/portale/babw/einstieg/lehrende-und-betreuende-im-b-a-bildungswissenschaft/?ajaxCalendar=1&amp;mo=1&amp;yr=2018" rel="nofollow">&gt;&gt;</a></td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="days-names">
+			<td>M</td><td>D</td><td>M</td><td>D</td><td>F</td><td>S</td><td>S</td>
+		</tr>
+		<tr>
+							<td class="eventless-pre">
+										27									</td>
+								<td class="eventful-pre">
+										<a href="http://www.fernuni-hagen.de/KSW/portale/babw/events/modul-1a-online-seminar-platon-von-humboldt-28-11-19-12-2017/" title="Modul 1A: Online-Seminar zum Kurs 33040 „Der Bildungsbegriff bei Platon und Wilhelm von Humboldt“ (28.11.-19.12.2017)">28</a>
+									</td>
+								<td class="eventless-pre">
+										29									</td>
+								<td class="eventless-pre">
+										30									</td>
+								<td class="eventful">
+										<a href="http://www.fernuni-hagen.de/KSW/portale/babw/events/praesenzveranstaltung-modul-1d-empirische-sozialforschung-vom-forschungsinteresse-zur-datengewinnung-kurs-03607/" title="Modul 1D Präsenzveranstaltung: „Empirische Sozialforschung – Vom Forschungsinteresse zur Datengewinnung“ (Kurs 03607)">1</a>
+									</td>
+								<td class="eventless">
+										2									</td>
+								<td class="eventless">
+										3									</td>
+				</tr><tr>				<td class="eventless">
+										4									</td>
+								<td class="eventless">
+										5									</td>
+								<td class="eventless">
+										6									</td>
+								<td class="eventful">
+										<a href="http://www.fernuni-hagen.de/KSW/portale/babw/studium/veranstaltungen/2017-12-07/" title="Kolloquium zum Modul 3F Kindheits- und Jugendforschung, Schwerpunkt: Jugendforschung, Kolloquium zum Modul 3F Kindheits- und Jugendforschung, Schwerpunkt: Kindheitsforschung">7</a>
+									</td>
+								<td class="eventful">
+										<a href="http://www.fernuni-hagen.de/KSW/portale/babw/events/modul-3b-praxis-der-mediendidaktik-in-muenchen-am-08-09-12-17/" title="Modul 3B: Praxis der Mediendidaktik in München am 08./09.12.2017">8</a>
+									</td>
+								<td class="eventless">
+										9									</td>
+								<td class="eventless">
+										10									</td>
+				</tr><tr>				<td class="eventless">
+										11									</td>
+								<td class="eventless">
+										12									</td>
+								<td class="eventless">
+										13									</td>
+								<td class="eventless">
+										14									</td>
+								<td class="eventful">
+										<a href="http://www.fernuni-hagen.de/KSW/portale/babw/events/3350/" title="Modul 1D: Empirische Bildungsforschung – quantitative Methoden">15</a>
+									</td>
+								<td class="eventless">
+										16									</td>
+								<td class="eventless">
+										17									</td>
+				</tr><tr>				<td class="eventless">
+										18									</td>
+								<td class="eventless">
+										19									</td>
+								<td class="eventless-today">
+										20									</td>
+								<td class="eventless">
+										21									</td>
+								<td class="eventless">
+										22									</td>
+								<td class="eventless">
+										23									</td>
+								<td class="eventless">
+										24									</td>
+				</tr><tr>				<td class="eventless">
+										25									</td>
+								<td class="eventless">
+										26									</td>
+								<td class="eventless">
+										27									</td>
+								<td class="eventless">
+										28									</td>
+								<td class="eventless">
+										29									</td>
+								<td class="eventless">
+										30									</td>
+								<td class="eventless">
+										31									</td>
+						</tr>
+	</tbody>
+</table></div></div><div class="widget widget_text">			<div class="textwidget"><br><a href="http://www.fernuni-hagen.de/KSW/portale/babw/veranstaltungen/">Alle aktuellen Veranstaltungen</a>
+<br><img src="lehrende_files/rss.gif"> <a href="http://www.fernuni-hagen.de/KSW/portale/babw/events/?feed=rss2">RSS-Feed</a></div>
+		</div>			</div>
+			<div class="col-md-3">
+						<div class="widget widget_recent_entries">		<h4 class="widgetheading">Aktuelles</h4>		<ul>
+					<li>
+				<a href="http://www.fernuni-hagen.de/KSW/portale/babw/2017/12/13/modul-1c-online-diskussionsrunde-im-wintersemester-201718/">Modul 1C: Online-Diskussionsrunde im Wintersemester 2017/18</a>
+						</li>
+					<li>
+				<a href="http://www.fernuni-hagen.de/KSW/portale/babw/2017/08/31/3384/">Willkommen an Bord</a>
+						</li>
+					<li>
+				<a href="http://www.fernuni-hagen.de/KSW/portale/babw/2017/08/14/klausurortsliste-fuer-die-ksw-klausuren-im-september-2017-erschienen/">Klausurortsliste für die KSW Klausuren im September 2017 erschienen</a>
+						</li>
+					<li>
+				<a href="http://www.fernuni-hagen.de/KSW/portale/babw/2017/07/19/neues-modul-1d-ab-dem-sommersemester-2018/">Neues Modul 1D ab dem Sommersemester 2018</a>
+						</li>
+					<li>
+				<a href="http://www.fernuni-hagen.de/KSW/portale/babw/2017/07/12/modul-1c-aktualisierung-des-kursmaterials-zum-wise-1718/">Modul 1C: Aktualisierung des Kursmaterials zum WiSe 17/18</a>
+						</li>
+				</ul>
+		</div>		<div class="widget widget_text">			<div class="textwidget"><a href="http://www.fernuni-hagen.de/KSW/portale/babw/service/aktuelles/">Alle aktuellen Meldungen</a><br><img src="lehrende_files/rss.gif"> <a href="http://www.fernuni-hagen.de/KSW/portale/babw/?feed=rss2">RSS-Feed</a></div>
+		</div>			</div>
+			<div class="col-md-3">
+				<div class="widget widget_text"><h4 class="widgetheading">Online-Systeme</h4>			<div class="textwidget"><a href="https://moodle2.fernuni-hagen.de/">moodle Lernumgebung</a><br>
+<a href="http://vu.fernuni-hagen.de/">Virtueller Studienplatz</a><br>
+<a href="https://connectportal.fernuni-hagen.de/">Virtuelles Klassenzimmer Connect</a><br>
+<a href="https://pos.fernuni-hagen.de/">Prüfungsportal</a><br><br>
+<a href="http://www.fernuni-hagen.de/KSW/portale/babw/service/online-systeme/">Alle Online-Systeme</a></div>
+		</div>			</div>
+			<div class="col-md-3">
+				<div class="widget_text widget widget_custom_html"><h4 class="widgetheading">Postadresse</h4><div class="textwidget custom-html-widget">FernUniversität in Hagen<br>
+Prüfungsamt KSW<br>
+B.A. Bildungswissenschaft<br>
+58084 Hagen
+
+<h4>Besuchsadresse</h4>
+
+FernUniversität in Hagen<br>
+Fakultät KSW<br>
+Universitätsstr. 33<br>
+58097 Hagen
+<br><br>
+<a href="http://www.fernuni-hagen.de/KSW/portale/babw/service/kontakt/">Kontakt</a><br><br>
+<a href="http://www.fernuni-hagen.de/imperia/md/content/presse/campusplan.pdf">Campusplan</a></div></div>			</div>
+		</div>
+	</div>
+	<div id="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<div class="copyright">
+						<span>© FernUniversität in Hagen 2017 | <a href="http://www.fernuni-hagen.de/KSW/portale/babw/redaktion/">Redaktion</a> | <a href="http://www.fernuni-hagen.de/impressum.shtml">Impressum</a></span>
+						<p></p>
+					</div>
+				</div>
+				<div class="col-md-3">
+				
+												<ul class="social-network">
+																		<li><a class="socialmedia" data-placement="top" title="" target="_blank" href="http://www.facebook.com/fernunihagen" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
+																											<li><a class="socialmedia" data-placement="top" target="_blank" title="" href="http://www.twitter.com/fernunihagen" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
+																																												</ul>
+							
+				</div>
+			</div>
+		</div>
+	</div>
+	</footer>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+	
+<style type="text/css">
+            h2.frq-main-title{
+               font-size: 13px;
+            }
+            .hrf-entry{
+               border:none !important;
+               margin-bottom: 0px !important;
+               padding-bottom: 0px !important;
+            }
+            .hrf-content{
+               display:none;
+               color: #444444;
+               background: ffffff;
+               font-size: 13px;
+               padding: 10px;
+               padding-left: 50px;
+               word-break: normal;
+            }
+            h6.hrf-title{
+               font-size: 13px ;
+               color: #004c97;
+               background: #ffffff;
+               padding: 10px ;
+               padding-left: 50px;
+               margin: 0;
+               -webkit-touch-callout: none;
+               -webkit-user-select: none;
+               -khtml-user-select: none;
+               -moz-user-select: none;
+               -ms-user-select: none;
+               user-select: none;
+               outline-style:none;
+            }
+            .hrf-title.close-faq{
+               cursor: pointer;
+            }
+            .hrf-title.close-faq span{
+               width: 30px;
+               height: 30px;
+               display: inline-block;
+               position: relative;
+               left: 0;
+               top: 8px;
+               margin-right: 12px;
+               margin-left: -42px;
+               background: #8e8e8e url(http://www.fernuni-hagen.de/KSW/portale/babw/wp-content/plugins/html5-responsive-faq/images/open.png) no-repeat center center;
+            }
+            }.hrf-title.open-faq{
+            
+            }
+            .hrf-title.open-faq span{
+               width: 30px;
+               height: 30px;
+               display: inline-block;
+               position: relative;
+               left: 0;
+               top: 8px;
+               margin-right: 12px;
+               margin-left: -42px;
+               background: #8e8e8e url(http://www.fernuni-hagen.de/KSW/portale/babw/wp-content/plugins/html5-responsive-faq/images/close.png) no-repeat center center;
+            }
+            .hrf-entry p{
+            
+            }
+            .hrf-entry ul{
+            
+            }
+            .hrf-entry ul li{
+            
+            }</style><script type="text/javascript">
+var colomatduration = 'fast';
+var colomatslideEffect = 'slideFade';
+</script><link rel="stylesheet" id="team-manager-style-css" href="lehrende_files/tm-style.css" type="text/css" media="">
+<script type="text/javascript" src="lehrende_files/slider.js"></script>
+<script type="text/javascript" src="lehrende_files/spinner.js"></script>
+<script type="text/javascript" src="lehrende_files/effect.js"></script>
+<script type="text/javascript" src="lehrende_files/effect-shake.js"></script>
+<script type="text/javascript" src="lehrende_files/collapse.js"></script>
+<script type="text/javascript" src="lehrende_files/jquery_005.js"></script>
+<script type="text/javascript" src="lehrende_files/bootstrap.js"></script>
+<script type="text/javascript" src="lehrende_files/jquery.js"></script>
+<script type="text/javascript" src="lehrende_files/jquery_003.js"></script>
+<script type="text/javascript" src="lehrende_files/prettify.js"></script>
+<script type="text/javascript" src="lehrende_files/jquery_002.js"></script>
+<script type="text/javascript" src="lehrende_files/setting.js"></script>
+<script type="text/javascript" src="lehrende_files/jquery_004.js"></script>
+<script type="text/javascript" src="lehrende_files/animate.js"></script>
+<script type="text/javascript" src="lehrende_files/comment-reply.js"></script>
+<script type="text/javascript" src="lehrende_files/verify.js"></script>
+<script type="text/javascript" src="lehrende_files/custom.js"></script>
+<script type="text/javascript" src="lehrende_files/wp-embed.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+});
+
+</script>
+
+
+
+<div id="wp-a11y-speak-polite" aria-live="polite" aria-relevant="additions text" aria-atomic="true" class="screen-reader-text wp-a11y-speak-region"></div><div id="wp-a11y-speak-assertive" aria-live="assertive" aria-relevant="additions text" aria-atomic="true" class="screen-reader-text wp-a11y-speak-region"></div></body></html>
