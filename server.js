@@ -7,6 +7,7 @@ const morgan = require("morgan");
 const logger = require("./lib/Logger");
 const classifications = require("./routes/classifications");
 const contentClasses = require("./routes/content-classes");
+const pageClasses = require("./routes/page-classes");
 const referenceClasses = require("./routes/reference-classes");
 const app = express();
 const PORT = 44284;
@@ -25,6 +26,7 @@ app.use((request, response, next) => {
 });
 app.use("/classifications", classifications);
 app.use("/content-classes", contentClasses);
+app.use("/page-classes", pageClasses);
 app.use("/reference-classes", referenceClasses);
 app.use((error, request, response, next) => {
     response
