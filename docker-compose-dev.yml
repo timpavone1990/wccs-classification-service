@@ -1,14 +1,14 @@
 version: "3"
 
 services:
-  typing-engine:
+  classification-service:
       build:
         context: .
         dockerfile: Dockerfile-dev
-      image: wcts/typing-engine:dev
+      image: wccs/classification-service:dev
       ports:
         - "44284:44284"
         - "9229:9229"
       volumes:
         - ./:/usr/src/app:ro
-        - ./resources/typing-engine.conf.json:/conf/typing-engine.conf.json:ro
+        - ./resources/classification-model.json:/conf/classification-model.json:ro

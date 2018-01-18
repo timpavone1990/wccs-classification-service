@@ -6,7 +6,7 @@ const router = express.Router();
 const unirest = require('unirest');
 const BrowserPageProvider = require("../lib/BrowserPageProvider");
 
-const configurationProvider = new (require("../lib/ConfigurationProvider"))("/conf/typing-engine.conf.json");
+const configurationProvider = new (require("../lib/ConfigurationProvider"))("/conf/classification-model.json");
 const httpRequestExecutor = new (require("../lib/HttpRequestExecutor"))(unirest);
 
 const puppeteer = require("puppeteer");

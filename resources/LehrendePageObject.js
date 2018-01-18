@@ -1,11 +1,11 @@
 module.exports = () => {
     return {
-        "properties": {
+        "contents": {
             "level1Content": {
-                "properties": {
+                "contents": {
                     "heading": {
                         "content": "Lehrende und Betreuende im B.A. Bildungswissenschaft",
-                        "properties": {},
+                        "contents": {},
                         "references": {},
                         "selector": {
                             "endSelector": {
@@ -20,14 +20,14 @@ module.exports = () => {
                             },
                             "type": "RangeSelector"
                         },
-                        "type": "Text"
+                        "class": "Text"
                     },
                     "teamList": [
                         {
-                            "properties": {
+                            "contents": {
                                 "name": {
                                     "content": "Prof. Dr. Theo Bastiaens",
-                                    "properties": {},
+                                    "contents": {},
                                     "references": {},
                                     "selector": {
                                         "endSelector": {
@@ -42,7 +42,7 @@ module.exports = () => {
                                         },
                                         "type": "RangeSelector"
                                     },
-                                    "type": "Text"
+                                    "class": "Text"
                                 }
                             },
                             "references": {
@@ -61,7 +61,7 @@ module.exports = () => {
                                         },
                                         "type": "RangeSelector"
                                     },
-                                    "type": "StupidReference"
+                                    "class": "StupidReference"
                                 }
                             },
                             "selector": {
@@ -77,13 +77,13 @@ module.exports = () => {
                                 },
                                 "type": "RangeSelector"
                             },
-                            "type": "TeamList"
+                            "class": "TeamList"
                         },
                         {
-                            "properties": {
+                            "contents": {
                                 "name": {
                                     "content": "Christine Betting",
-                                    "properties": {},
+                                    "contents": {},
                                     "references": {},
                                     "selector": {
                                         "endSelector": {
@@ -98,7 +98,7 @@ module.exports = () => {
                                         },
                                         "type": "RangeSelector"
                                     },
-                                    "type": "Text"
+                                    "class": "Text"
                                 }
                             },
                             "references": {},
@@ -115,7 +115,7 @@ module.exports = () => {
                                 },
                                 "type": "RangeSelector"
                             },
-                            "type": "TeamList"
+                            "class": "TeamList"
                         }
                     ]
                 },
@@ -135,7 +135,7 @@ module.exports = () => {
                             },
                             "type": "RangeSelector"
                         },
-                        "type": "StupidReference"
+                        "class": "StupidReference"
                     }
                 },
                 "selector": {
@@ -151,11 +151,11 @@ module.exports = () => {
                     },
                     "type": "RangeSelector"
                 },
-                "type": "Level1Content"
+                "class": "Level1Content"
             },
             "portal": {
                 "content": "B.A. Bildungswissenschaft",
-                "properties": {},
+                "contents": {},
                 "references": {},
                 "selector": {
                     "endSelector": {
@@ -170,7 +170,7 @@ module.exports = () => {
                     },
                     "type": "RangeSelector"
                 },
-                "type": "Text"
+                "class": "Text"
             }
         },
         "references": {
@@ -189,11 +189,11 @@ module.exports = () => {
                     },
                     "type": "RangeSelector"
                 },
-                "type": "StupidReference"
+                "class": "StupidReference"
             }
         },
         "status": "Classified",
-        "type": "Teachers",
-        "url": "file:///home/tim/Projekte/Masterarbeit/WebContentClassificationSystem/wcts-typing-engine/resources/babw/lehrende"
+        "class": "Teachers",
+        "url": `file://${process.cwd()}/resources/babw/lehrende`
     }
 };
