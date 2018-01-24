@@ -1,7 +1,6 @@
 {
-  "name": "site-analyser",
+  "name": "wccs-classification-service",
   "version": "1.0.0",
-  "description": "Analyser prototype",
   "private": true,
   "main": "server.js",
   "scripts": {
