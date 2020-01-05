@@ -1,1 +1,4 @@
-= Typing Engine
+= WCCS Classification Service
+
+This is the reference implementation for the Classification Service in the Web Content Classification System.
+See my https://github.com/TheGreyKoala/masters-thesis[master's thesis] for more information about this system and the role of the Classification Service.
